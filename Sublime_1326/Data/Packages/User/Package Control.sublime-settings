@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Extract Sublime Package",
+		"Package Control",
+		"PackageResourceViewer",
+		"SublimeAStyleFormatter",
+		"Terminal"
+	]
+}

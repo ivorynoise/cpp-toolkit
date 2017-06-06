@@ -1,0 +1,471 @@
+{
+	"folder_history":
+	[
+		"/C/Users/User/Desktop/cpp-toolkit/launchpad"
+	],
+	"last_version": 3126,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/myCppBuild.sublime-build",
+							""
+						],
+						[
+							"Packages/User/myCppBuild.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/myCppBuild.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 104.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"ww",
+						"Word Wrap: Toggle"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"extra",
+						"Extract Sublime Package: Extract all packages"
+					]
+				],
+				"width": 432.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/User/Desktop/cpp-toolkit/welcome.cpp",
+				"/C/Users/User/Desktop/cpp-toolkit/install.bat",
+				"/C/Users/User/Desktop/cpp-toolkit/setup.bat",
+				"/C/Users/User/Desktop/cpp-toolkit/launchpad/04-06_intro/welcome.cpp",
+				"/C/Users/User/Desktop/cpp-toolkit/sublime_text.lnk",
+				"/C/Users/User/Desktop/setup.bat",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
+				"/C/Users/User/Desktop/cpp-toolkit/launchpad/04-06_intro/in",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/C++/C++ Single File.sublime-build",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Packages/ActionScript.sublime-package",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/Preferences.sublime-settings",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Packages/C++.sublime-package"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 105.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 127.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/myCppBuild.sublime-build",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "Packages/User/myCppBuild.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/myCppBuild.sublime-build",
+							""
+						],
+						[
+							"Packages/User/myCppBuild.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/myCppBuild.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 173.0,
+				"last_filter": "termina",
+				"selected_items":
+				[
+					[
+						"termina",
+						"Preferences: Terminal Settings – Default"
+					],
+					[
+						"ww",
+						"Word Wrap: Toggle"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"extra",
+						"Extract Sublime Package: Extract all packages"
+					]
+				],
+				"width": 432.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/User/Desktop/dfs",
+				"/C/Users/User/Desktop/cpp_toolkit/Sublime_1326/Data/Packages/Terminal/Terminal.sublime-settings",
+				"/C/Users/User/Desktop/cpp-toolkit/a.cpp",
+				"/C/Users/User/Desktop/cpp-toolkit/install.bat",
+				"/C/Users/User/Desktop/cpp-toolkit/welcome.cpp",
+				"/C/Users/User/Desktop/CPP-TO~1/Sublime_1326/Data/Packages/Terminal/Terminal.sublime-settings",
+				"/C/Users/User/Desktop/CPP-TO~1/Sublime_1326/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/User/Desktop/CPP-TO~1/Sublime_1326/Data/Packages/Terminal/Default (Windows).sublime-keymap",
+				"/C/Users/User/Desktop/cpp-toolkit/welcome1.cpp",
+				"/C/Users/User/Desktop/cpp-toolkit/setup.bat",
+				"/C/Users/User/Desktop/cpp-toolkit/launchpad/04-06_intro/welcome.cpp",
+				"/C/Users/User/Desktop/cpp-toolkit/sublime_text.lnk",
+				"/C/Users/User/Desktop/setup.bat",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
+				"/C/Users/User/Desktop/cpp-toolkit/launchpad/04-06_intro/in",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/C++/C++ Single File.sublime-build",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Packages/ActionScript.sublime-package",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/Preferences.sublime-settings",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Packages/C++.sublime-package"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 105.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 127.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/myCppBuild.sublime-build",
+			"position": "0,2,3,-1,-1,-1,-1,589,397,50,1053",
+			"project": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
