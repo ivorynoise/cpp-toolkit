@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+//Deepak Aggarwal, Coding Blocks
+//deepak@codingblocks.com
+
+#include <iostream>
+using namespace std;
+int main(){
+	
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cpp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

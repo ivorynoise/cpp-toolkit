@@ -1,7 +1,7 @@
 {
 	// The command to execute for the terminal, leave blank for the OS default
 	// See https://github.com/wbond/sublime_terminal#examples for examples
-	"terminal": "",
+	"terminal": "cmd.exe",
 
 	// A list of default parameters to pass to the terminal, this can be
 	// overridden by passing the "parameters" key with a list value to the args

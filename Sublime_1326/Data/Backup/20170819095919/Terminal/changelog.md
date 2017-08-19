@@ -1,8 +1,4 @@
 # changelog
-## 1.18.0
-
- - Added support for Elementary OS. Fixes #159
-
 ## 1.17.0
 
  - Fixed OS X settings via @drbarrett in #162

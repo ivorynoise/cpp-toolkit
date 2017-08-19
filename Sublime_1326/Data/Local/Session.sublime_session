@@ -4,224 +4,531 @@
 		"/C/Users/User/Desktop/cpp-toolkit/launchpad"
 	],
 	"last_version": 3126,
-	"last_window_id": 2,
+	"last_window_id": 11,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 480.0,
+		"new_window_height": 337.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
-				]
-			},
-			"build_system_choices":
-			[
-				[
 					[
-						[
-							"Packages/C++/C++ Single File.sublime-build",
-							""
-						],
-						[
-							"Packages/C++/C++ Single File.sublime-build",
-							"Run"
-						]
+						"pre",
+						"preIndex"
 					],
 					[
-						"Packages/C++/C++ Single File.sublime-build",
-						""
+						"print",
+						"printLevelAdv"
+					],
+					[
+						"se",
+						"seqToTree"
+					],
+					[
+						"ind",
+						"inorder"
+					],
+					[
+						"pr",
+						"preIndex"
+					],
+					[
+						"le",
+						"printLevel"
+					],
+					[
+						"r",
+						"right"
+					],
+					[
+						"ri",
+						"right"
+					],
+					[
+						"lf",
+						"lft"
+					],
+					[
+						"lft",
+						"lftAns"
+					],
+					[
+						"cur",
+						"curAns"
+					],
+					[
+						"lef",
+						"leftCnt"
+					],
+					[
+						"Node",
+						"maxSumNode"
+					],
+					[
+						"chil",
+						"childNode"
+					],
+					[
+						"chi",
+						"childSum"
+					],
+					[
+						"child",
+						"childNode"
+					],
+					[
+						"fa",
+						"familySum"
+					],
+					[
+						"max",
+						"maxSumNode"
+					],
+					[
+						"ch",
+						"childAns"
+					],
+					[
+						"Q",
+						"Queue"
+					],
+					[
+						"rea",
+						"rear"
+					],
+					[
+						"re",
+						"reverseStack"
+					],
+					[
+						"rand",
+						"randNode"
+					],
+					[
+						"ra",
+						"randNode"
+					],
+					[
+						"ran",
+						"randNo"
+					],
+					[
+						"N",
+						"NULL"
+					],
+					[
+						"rev",
+						"reverseList"
+					],
+					[
+						"cu",
+						"curRow"
+					],
+					[
+						"n",
+						"numOfCC"
+					],
+					[
+						"find",
+						"findNum"
+					],
+					[
+						"cnt",
+						"cntofCC"
+					],
+					[
+						"clone",
+						"clonelinked"
+					],
+					[
+						"clon",
+						"cloning"
+					],
+					[
+						"cl",
+						"clone"
+					],
+					[
+						"new",
+						"newNode"
+					],
+					[
+						"mer",
+						"mergeList"
+					],
+					[
+						"nu",
+						"NULL"
+					],
+					[
+						"mid",
+						"midPoint"
+					],
+					[
+						"len",
+						"lengthLL"
+					],
+					[
+						"delete",
+						"deleteNode"
+					],
+					[
+						"ma",
+						"maxProfit"
+					],
+					[
+						"dis",
+						"dijikstra"
+					],
+					[
+						"di",
+						"distFromSrc"
+					],
+					[
+						"v",
+						"Vertex"
+					],
+					[
+						"de",
+						"degree"
+					],
+					[
+						"Pl",
+						"Polynomial"
+					],
+					[
+						"pus",
+						"push_back"
+					],
+					[
+						"in",
+						"inDegree"
+					],
+					[
+						"s",
+						"shortestDistance"
+					],
+					[
+						"vist",
+						"visited"
+					],
+					[
+						"ne",
+						"neighbor"
+					],
+					[
+						"dfs",
+						"dfs_helper"
+					],
+					[
+						"ad",
+						"adjList"
+					],
+					[
+						"x",
+						"xpow"
+					],
+					[
+						"str",
+						"strlen"
+					],
+					[
+						"S",
+						"Student"
+					],
+					[
+						"del",
+						"deleteStud"
+					],
+					[
+						"prin",
+						"print"
+					],
+					[
+						"ptr",
+						"ptr_arr"
+					],
+					[
+						"p",
+						"phone"
+					],
+					[
+						"acc",
+						"account"
+					],
+					[
+						"ph",
+						"phone"
+					],
+					[
+						"pri",
+						"priority"
+					],
+					[
+						"heap",
+						"heapify"
+					],
+					[
+						"push",
+						"push_back"
+					],
+					[
+						"d",
+						"define"
+					],
+					[
+						"do",
+						"downward"
+					],
+					[
+						"for",
+						"forward"
+					],
+					[
+						"st",
+						"strt"
+					],
+					[
+						"bst",
+						"bstToList"
+					],
+					[
+						"root",
+						"root2"
+					],
+					[
+						"rot",
+						"root2"
+					],
+					[
+						"ro",
+						"root1"
+					],
+					[
+						"roo",
+						"root2"
+					],
+					[
+						"pritn",
+						"printKk"
+					],
+					[
+						"arr",
+						"arrToTree"
+					],
+					[
+						"is",
+						"isValid"
+					],
+					[
+						"b",
+						"board"
+					],
+					[
+						"Par",
+						"Pair2"
+					],
+					[
+						"dia",
+						"diameter"
+					],
+					[
+						"diameter_",
+						"diameter_opt"
+					],
+					[
+						"siz",
+						"sizeB"
+					],
+					[
+						"size",
+						"sizeA"
+					],
+					[
+						"cor",
+						"corresponsdingDig"
+					],
+					[
+						"sel",
+						"selection2"
+					],
+					[
+						"sum",
+						"sumArr2"
+					],
+					[
+						"sma",
+						"smallSum"
+					],
+					[
+						"small",
+						"smallArr"
+					],
+					[
+						"cou",
+						"countNodes"
+					],
+					[
+						"con",
+						"countNodes"
+					],
+					[
+						"e",
+						"empty"
+					],
+					[
+						"c",
+						"curParent"
+					],
+					[
+						"In",
+						"include"
+					],
+					[
+						"myP",
+						"myPop"
+					],
+					[
+						"sta",
+						"stack"
+					],
+					[
+						"pi",
+						"prices"
+					],
+					[
+						"row",
+						"rowSum"
+					],
+					[
+						"col",
+						"colSum"
+					],
+					[
+						"CO",
+						"cout"
+					],
+					[
+						"plus",
+						"plusGrade"
+					],
+					[
+						"MYV",
+						"MYVECOTR_H_"
+					],
+					[
+						"vector",
+						"myVector"
+					],
+					[
+						"my",
+						"myVector"
+					],
+					[
+						"rem",
+						"removeCycle"
+					],
+					[
+						"add",
+						"addNumbers"
+					],
+					[
+						"no",
+						"no1"
+					],
+					[
+						"wo",
+						"word1"
+					],
+					[
+						"word",
+						"word2"
+					],
+					[
+						"las",
+						"lastIndx"
+					],
+					[
+						"lar",
+						"largest"
+					],
+					[
+						"hea",
+						"head2"
+					],
+					[
+						"me",
+						"myMerge"
+					],
+					[
+						"sr",
+						"sortedList"
+					],
+					[
+						"so",
+						"bubbleSort"
+					],
+					[
+						"par",
+						"part2"
+					],
+					[
+						"token",
+						"token_start"
+					],
+					[
+						"ci",
+						"countBits"
+					],
+					[
+						"int",
+						"input"
+					],
+					[
+						"inp",
+						"input"
+					],
+					[
+						"co",
+						"countBits"
+					],
+					[
+						"cel",
+						"fahrToCel"
+					],
+					[
+						"to",
+						"top"
+					],
+					[
+						"std",
+						"students"
+					],
+					[
+						"be",
+						"beg"
+					],
+					[
+						"net",
+						"netHor"
+					],
+					[
+						"ner",
+						"netHor"
+					],
+					[
+						"char",
+						"characters"
+					],
+					[
+						"w",
+						"words"
 					]
-				],
-				[
-					[
-						[
-							"Packages/User/myCppBuild.sublime-build",
-							""
-						],
-						[
-							"Packages/User/myCppBuild.sublime-build",
-							"Run"
-						]
-					],
-					[
-						"Packages/User/myCppBuild.sublime-build",
-						""
-					]
-				]
-			],
-			"build_varint": "",
-			"command_palette":
-			{
-				"height": 104.0,
-				"last_filter": "",
-				"selected_items":
-				[
-					[
-						"ww",
-						"Word Wrap: Toggle"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"prv",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"extra",
-						"Extract Sublime Package: Extract all packages"
-					]
-				],
-				"width": 432.0
-			},
-			"console":
-			{
-				"height": 0.0,
-				"history":
-				[
 				]
 			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/C/Users/User/Desktop/cpp-toolkit/welcome.cpp",
-				"/C/Users/User/Desktop/cpp-toolkit/install.bat",
-				"/C/Users/User/Desktop/cpp-toolkit/setup.bat",
-				"/C/Users/User/Desktop/cpp-toolkit/launchpad/04-06_intro/welcome.cpp",
-				"/C/Users/User/Desktop/cpp-toolkit/sublime_text.lnk",
-				"/C/Users/User/Desktop/setup.bat",
-				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
-				"/C/Users/User/Desktop/cpp-toolkit/launchpad/04-06_intro/in",
-				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/C++/C++ Single File.sublime-build",
-				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Packages/ActionScript.sublime-package",
-				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/Preferences.sublime-settings",
-				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Packages/C++.sublime-package"
-			],
-			"find":
-			{
-				"height": 39.0
-			},
-			"find_in_files":
-			{
-				"height": 105.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 31.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"menu_visible": true,
-			"output.astyle_error_message":
-			{
-				"height": 0.0
-			},
-			"output.exec":
-			{
-				"height": 127.0
-			},
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"pinned_build_system": "Packages/User/myCppBuild.sublime-build",
-			"replace":
-			{
-				"height": 58.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			}
-		},
-		"new_window_width": 640.0
-	},
-	"windows":
-	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-				]
-			},
-			"buffers":
-			[
-			],
-			"build_system": "Packages/User/myCppBuild.sublime-build",
 			"build_system_choices":
 			[
 				[
@@ -309,29 +616,138 @@
 			},
 			"file_history":
 			[
-				"/C/Users/User/Desktop/dfs",
-				"/C/Users/User/Desktop/cpp_toolkit/Sublime_1326/Data/Packages/Terminal/Terminal.sublime-settings",
-				"/C/Users/User/Desktop/cpp-toolkit/a.cpp",
-				"/C/Users/User/Desktop/cpp-toolkit/install.bat",
-				"/C/Users/User/Desktop/cpp-toolkit/welcome.cpp",
-				"/C/Users/User/Desktop/CPP-TO~1/Sublime_1326/Data/Packages/Terminal/Terminal.sublime-settings",
-				"/C/Users/User/Desktop/CPP-TO~1/Sublime_1326/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/User/Desktop/CPP-TO~1/Sublime_1326/Data/Packages/Terminal/Default (Windows).sublime-keymap",
-				"/C/Users/User/Desktop/cpp-toolkit/welcome1.cpp",
-				"/C/Users/User/Desktop/cpp-toolkit/setup.bat",
-				"/C/Users/User/Desktop/cpp-toolkit/launchpad/04-06_intro/welcome.cpp",
-				"/C/Users/User/Desktop/cpp-toolkit/sublime_text.lnk",
-				"/C/Users/User/Desktop/setup.bat",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_16/tree.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/17-Jul_17/genericTree.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/17-Jul_17/bestFamily.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/17-Jul_17/binarytree.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/17-Jul_17/binaryMain.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/decodingOOPS.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/test.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/reverseQ.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/myqueue.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/tree.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/in.txt",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/main.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/brackets.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/findCycle.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/stack.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/test.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/reverseStack.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/stack.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/reverse.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/rand.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/mylist.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/10-Jul_14/main.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/deleteBst.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/journeyToMoon.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/clustering.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/mergeK.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/test.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/clockwise.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/dynamic2D.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/duplicateLL.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/cloneLL.cpp",
+				"/C/Users/User/Desktop/notes.txt",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/bst.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/polynomial.cpp",
+				"/C/Users/User/Desktop/test.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/09-Jul_13/dijikstra.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/09-Jul_13/coinChange.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/09-Jul_13/wine.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/09-Jul_13/test.cpp",
+				"/D/mentor/lp-1612/lec22/graph_weighted.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp1_Lecture09.zip/Lecture-09/trie.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/calc.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/add.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/test.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/subtract.cpp",
+				"/C/Users/User/Desktop/cpp-toolkit/MinGW/include/string.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/contract.h",
 				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
-				"/C/Users/User/Desktop/cpp-toolkit/launchpad/04-06_intro/in",
-				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/C++/C++ Single File.sublime-build",
-				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Packages/ActionScript.sublime-package",
-				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/Preferences.sublime-settings",
-				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Packages/C++.sublime-package"
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/05-Jul_12/polynomial.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/07-Jul_12/graph.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/.git/config",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/07-Jul_12/topologicalSort.cpp",
+				"/C/Users/User/.gitconfig",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/07-Jul_12/test.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/07-Jul_12/snakeLadder.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/07-Jul_12/main.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/05-Jul_12/person.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/05-Jul_12/customer.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/05-Jul_12/dynamic.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/05-Jul_12/student.cpp",
+				"/D/mentor/lp-1612/lec11/macro.cpp",
+				"/D/mentor/lp-1612/lec11/staticDemo.cpp",
+				"/D/mentor/lp-1612/lec12/newUsr.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/heap_test.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/heap_template.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/verticalTree.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/hashtable.h",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/cpp_template.sublime-snippet",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/stl_map.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/hashtable.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp1_Lecture09.zip/Lecture-09/hashtable.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/heap.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/test.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/ratInMaze.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/ptrConf.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/define.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/default.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/static.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/keypad.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/bst.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/in",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/main.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/27-Jun_08/trees_basic.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/k_smallest.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/arrToTree.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp2_Lecture08.zip/Lecture-08/priority_queue.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp2_Lecture08.zip/Lecture-08/heap.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/bstToList.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp2_Lecture08.zip/Lecture-08/bst.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/mytree.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/isBST.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp1_Lecture08.zip/Lecture-08/searchBST.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/inToTree.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp1_Lecture08.zip/Lecture-08/bst.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp3_Lecture07.zip/Lecture-07/tree_basic.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/30-Jun_09/mytree.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/01-Jul_10/subseq.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/01-Jul_10/printCodes.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/01-Jul_10/nQueen.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/01-Jul_10/sudoku.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/30-Jun_09/out",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/30-Jun_09/in",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/permut.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/30-Jun_09/main.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp2_Lecture07.zip/Lecture-07/tree_basic.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/strToNum.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/mergeSort.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/towerofHanoi.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/myio.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/subseq.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/sumArr.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/selection.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/power.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/printNum.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/27-Jun_08/celeb.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/27-Jun_08/in",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/27-Jun_08/revStk.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/27-Jun_08/stkSpan.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/27-Jun_08/redundantPar.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/27-Jun_08/stkUsing2Que.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp1_Lecture07.zip/Lecture-07/tree_basic.cpp",
+				"/C/Users/User/Desktop/revStack.cpp",
+				"/C/Users/User/Desktop/nextGreater.cpp",
+				"/C/Users/User/Desktop/stockSpan.cpp",
+				"/C/Users/User/Desktop/in",
+				"/C/Users/User/Desktop/findMin.cpp",
+				"/C/Users/User/Desktop/redundantParant.cpp",
+				"/C/Users/User/Desktop/celebrity.cpp"
 			],
 			"find":
 			{
-				"height": 39.0
+				"height": 36.0
 			},
 			"find_in_files":
 			{
@@ -342,9 +758,23 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
+					"cout",
+					"public",
+					"nV",
+					"element",
+					"push",
+					" ;",
+					"        {{",
+					"\n#",
+					"//Deepak Aggarwal, Coding Blocks\n\n#include <iostream>\nusing namespace std;\nint main(){\n\t// 12;\n\t\n\tchar *ptr = \"abc\";\n\tchar arr[] = \"abc\";\n\t// ptr[0] = 'k';\n\tarrr[0] = 'k';\n\tcout << ptr;\n\n\n\t// char s1[] = \"abc\";\n\n\n\t// char s2[] = s1;\t\n\n}",
+					"include",
+					"}\n",
+					"dim",
+					"N",
+					";\n"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -352,6 +782,880 @@
 				"regex": false,
 				"replace_history":
 				[
+					"10",
+					"dim"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 36.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 56.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/myCppBuild.sublime-build",
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"cha",
+						"charToInt"
+					],
+					[
+						"re",
+						"return"
+					],
+					[
+						"sr",
+						"srcC"
+					],
+					[
+						"src",
+						"srcR"
+					],
+					[
+						"in",
+						"inc\t#include <…>"
+					],
+					[
+						"de",
+						"deleteOp"
+					],
+					[
+						"ins",
+						"insertOp"
+					],
+					[
+						"pr",
+						"price"
+					],
+					[
+						"cur",
+						"curCoin"
+					],
+					[
+						"pre",
+						"preIndex"
+					],
+					[
+						"print",
+						"printLevelAdv"
+					],
+					[
+						"se",
+						"seqToTree"
+					],
+					[
+						"ind",
+						"inorder"
+					],
+					[
+						"le",
+						"printLevel"
+					],
+					[
+						"r",
+						"right"
+					],
+					[
+						"ri",
+						"right"
+					],
+					[
+						"lf",
+						"lft"
+					],
+					[
+						"lft",
+						"lftAns"
+					],
+					[
+						"lef",
+						"leftCnt"
+					],
+					[
+						"Node",
+						"maxSumNode"
+					],
+					[
+						"chil",
+						"childNode"
+					],
+					[
+						"chi",
+						"childSum"
+					],
+					[
+						"child",
+						"childNode"
+					],
+					[
+						"fa",
+						"familySum"
+					],
+					[
+						"max",
+						"maxSumNode"
+					],
+					[
+						"ch",
+						"childAns"
+					],
+					[
+						"Q",
+						"Queue"
+					],
+					[
+						"rea",
+						"rear"
+					],
+					[
+						"rand",
+						"randNode"
+					],
+					[
+						"ra",
+						"randNode"
+					],
+					[
+						"ran",
+						"randNo"
+					],
+					[
+						"N",
+						"NULL"
+					],
+					[
+						"rev",
+						"reverseList"
+					],
+					[
+						"cu",
+						"curRow"
+					],
+					[
+						"n",
+						"numOfCC"
+					],
+					[
+						"find",
+						"findNum"
+					],
+					[
+						"cnt",
+						"cntofCC"
+					],
+					[
+						"clone",
+						"clonelinked"
+					],
+					[
+						"clon",
+						"cloning"
+					],
+					[
+						"cl",
+						"clone"
+					],
+					[
+						"new",
+						"newNode"
+					],
+					[
+						"mer",
+						"mergeList"
+					],
+					[
+						"nu",
+						"NULL"
+					],
+					[
+						"mid",
+						"midPoint"
+					],
+					[
+						"len",
+						"lengthLL"
+					],
+					[
+						"delete",
+						"deleteNode"
+					],
+					[
+						"ma",
+						"maxProfit"
+					],
+					[
+						"dis",
+						"dijikstra"
+					],
+					[
+						"di",
+						"distFromSrc"
+					],
+					[
+						"v",
+						"Vertex"
+					],
+					[
+						"Pl",
+						"Polynomial"
+					],
+					[
+						"pus",
+						"push_back"
+					],
+					[
+						"s",
+						"shortestDistance"
+					],
+					[
+						"vist",
+						"visited"
+					],
+					[
+						"ne",
+						"neighbor"
+					],
+					[
+						"dfs",
+						"dfs_helper"
+					],
+					[
+						"ad",
+						"adjList"
+					],
+					[
+						"x",
+						"xpow"
+					],
+					[
+						"str",
+						"strlen"
+					],
+					[
+						"S",
+						"Student"
+					],
+					[
+						"del",
+						"deleteStud"
+					],
+					[
+						"prin",
+						"print"
+					],
+					[
+						"ptr",
+						"ptr_arr"
+					],
+					[
+						"p",
+						"phone"
+					],
+					[
+						"acc",
+						"account"
+					],
+					[
+						"ph",
+						"phone"
+					],
+					[
+						"pri",
+						"priority"
+					],
+					[
+						"heap",
+						"heapify"
+					],
+					[
+						"push",
+						"push_back"
+					],
+					[
+						"d",
+						"define"
+					],
+					[
+						"do",
+						"downward"
+					],
+					[
+						"for",
+						"forward"
+					],
+					[
+						"st",
+						"strt"
+					],
+					[
+						"bst",
+						"bstToList"
+					],
+					[
+						"root",
+						"root2"
+					],
+					[
+						"rot",
+						"root2"
+					],
+					[
+						"ro",
+						"root1"
+					],
+					[
+						"roo",
+						"root2"
+					],
+					[
+						"pritn",
+						"printKk"
+					],
+					[
+						"arr",
+						"arrToTree"
+					],
+					[
+						"is",
+						"isValid"
+					],
+					[
+						"b",
+						"board"
+					],
+					[
+						"Par",
+						"Pair2"
+					],
+					[
+						"dia",
+						"diameter"
+					],
+					[
+						"diameter_",
+						"diameter_opt"
+					],
+					[
+						"siz",
+						"sizeB"
+					],
+					[
+						"size",
+						"sizeA"
+					],
+					[
+						"cor",
+						"corresponsdingDig"
+					],
+					[
+						"sel",
+						"selection2"
+					],
+					[
+						"sum",
+						"sumArr2"
+					],
+					[
+						"sma",
+						"smallSum"
+					],
+					[
+						"small",
+						"smallArr"
+					],
+					[
+						"cou",
+						"countNodes"
+					],
+					[
+						"con",
+						"countNodes"
+					],
+					[
+						"e",
+						"empty"
+					],
+					[
+						"c",
+						"curParent"
+					],
+					[
+						"In",
+						"include"
+					],
+					[
+						"myP",
+						"myPop"
+					],
+					[
+						"sta",
+						"stack"
+					],
+					[
+						"pi",
+						"prices"
+					],
+					[
+						"row",
+						"rowSum"
+					],
+					[
+						"col",
+						"colSum"
+					],
+					[
+						"CO",
+						"cout"
+					],
+					[
+						"plus",
+						"plusGrade"
+					],
+					[
+						"MYV",
+						"MYVECOTR_H_"
+					],
+					[
+						"vector",
+						"myVector"
+					],
+					[
+						"my",
+						"myVector"
+					],
+					[
+						"rem",
+						"removeCycle"
+					],
+					[
+						"add",
+						"addNumbers"
+					],
+					[
+						"no",
+						"no1"
+					],
+					[
+						"wo",
+						"word1"
+					],
+					[
+						"word",
+						"word2"
+					],
+					[
+						"las",
+						"lastIndx"
+					],
+					[
+						"lar",
+						"largest"
+					],
+					[
+						"hea",
+						"head2"
+					],
+					[
+						"me",
+						"myMerge"
+					],
+					[
+						"so",
+						"bubbleSort"
+					],
+					[
+						"par",
+						"part2"
+					],
+					[
+						"token",
+						"token_start"
+					],
+					[
+						"ci",
+						"countBits"
+					],
+					[
+						"int",
+						"input"
+					],
+					[
+						"inp",
+						"input"
+					],
+					[
+						"co",
+						"countBits"
+					],
+					[
+						"cel",
+						"fahrToCel"
+					],
+					[
+						"to",
+						"top"
+					],
+					[
+						"std",
+						"students"
+					],
+					[
+						"be",
+						"beg"
+					],
+					[
+						"net",
+						"netHor"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/Users/User/Desktop/cpp-toolkit/install.bat",
+					"settings":
+					{
+						"buffer_size": 68,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "Packages/User/myCppBuild.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/myCppBuild.sublime-build",
+							""
+						],
+						[
+							"Packages/User/myCppBuild.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/myCppBuild.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "ter",
+				"selected_items":
+				[
+					[
+						"ter",
+						"Preferences: Terminal Key Bindings – Default"
+					],
+					[
+						"term",
+						"Preferences: Terminal Settings – Default"
+					],
+					[
+						"termina",
+						"Preferences: Terminal Settings – Default"
+					],
+					[
+						"ww",
+						"Word Wrap: Toggle"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"extra",
+						"Extract Sublime Package: Extract all packages"
+					]
+				],
+				"width": 400.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/Terminal/Default (Windows).sublime-keymap",
+				"/C/Users/User/Desktop/notes.txt",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/Terminal/Terminal.sublime-settings",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/Terminal.sublime-settings",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/astronauts.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/forest_fire.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/coupon.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/trie.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/in",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/30-Jul_23/fib.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/30-Jul_23/ncoins.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/30-Jul_23/wine.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/30-Jul_23/knapsack.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/30-Jul_23/editDistance.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/26-Jul_22/dijMain.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/26-Jul_22/weightedGraph.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/stackUsingQ.cpp",
+				"/C/Users/User/Desktop/test.cpp",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_16/tree.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/17-Jul_17/genericTree.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/17-Jul_17/bestFamily.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/17-Jul_17/binarytree.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/17-Jul_17/binaryMain.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/decodingOOPS.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/test.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/reverseQ.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/myqueue.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/tree.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/in.txt",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/15-Jul_15/main.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/brackets.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/findCycle.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/stack.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/test.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/reverseStack.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/stack.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/reverse.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/rand.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/12-Jul_15/mylist.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/10-Jul_14/main.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/deleteBst.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/journeyToMoon.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/clustering.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/mergeK.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/test.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/clockwise.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/dynamic2D.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/duplicateLL.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/cloneLL.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/11-Jul_14/bst.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/polynomial.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/09-Jul_13/dijikstra.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/09-Jul_13/coinChange.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/09-Jul_13/wine.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/09-Jul_13/test.cpp",
+				"/D/mentor/lp-1612/lec22/graph_weighted.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp1_Lecture09.zip/Lecture-09/trie.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/calc.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/add.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/test.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/subtract.cpp",
+				"/C/Users/User/Desktop/cpp-toolkit/MinGW/include/string.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/08-Jul_13/contract.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/05-Jul_12/polynomial.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/07-Jul_12/graph.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/.git/config",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/07-Jul_12/topologicalSort.cpp",
+				"/C/Users/User/.gitconfig",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/07-Jul_12/test.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/07-Jul_12/snakeLadder.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/07-Jul_12/main.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/05-Jul_12/person.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/05-Jul_12/customer.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/05-Jul_12/dynamic.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/05-Jul_12/student.cpp",
+				"/D/mentor/lp-1612/lec11/macro.cpp",
+				"/D/mentor/lp-1612/lec11/staticDemo.cpp",
+				"/D/mentor/lp-1612/lec12/newUsr.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/heap_test.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/heap_template.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/verticalTree.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/hashtable.h",
+				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/cpp_template.sublime-snippet",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/stl_map.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/hashtable.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp1_Lecture09.zip/Lecture-09/hashtable.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/04-Jul_11/heap.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/test.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/ratInMaze.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/ptrConf.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/define.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/default.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/static.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/03-Jul_11/keypad.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/bst.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/in",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/main.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/27-Jun_08/trees_basic.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/k_smallest.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/arrToTree.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp2_Lecture08.zip/Lecture-08/priority_queue.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp2_Lecture08.zip/Lecture-08/heap.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/bstToList.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp2_Lecture08.zip/Lecture-08/bst.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/mytree.h",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/isBST.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp1_Lecture08.zip/Lecture-08/searchBST.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/02-Jul_10/inToTree.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp1_Lecture08.zip/Lecture-08/bst.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp3_Lecture07.zip/Lecture-07/tree_basic.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/30-Jun_09/mytree.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/01-Jul_10/subseq.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/01-Jul_10/printCodes.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/01-Jul_10/nQueen.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/01-Jul_10/sudoku.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/30-Jun_09/out",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/30-Jun_09/in",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/permut.cpp",
+				"/C/Users/User/Desktop/Algo_17_Summer_Dwarka/30-Jun_09/main.cpp",
+				"/C/Users/User/AppData/Local/Temp/Temp2_Lecture07.zip/Lecture-07/tree_basic.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/strToNum.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/mergeSort.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/towerofHanoi.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/myio.h",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/subseq.cpp",
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/28-Jun_09/sumArr.cpp"
+			],
+			"find":
+			{
+				"height": 44.0
+			},
+			"find_in_files":
+			{
+				"height": 105.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"visisted",
+					"cout",
+					"public",
+					"nV",
+					"element",
+					"push",
+					" ;",
+					"        {{",
+					"\n#",
+					"//Deepak Aggarwal, Coding Blocks\n\n#include <iostream>\nusing namespace std;\nint main(){\n\t// 12;\n\t\n\tchar *ptr = \"abc\";\n\tchar arr[] = \"abc\";\n\t// ptr[0] = 'k';\n\tarrr[0] = 'k';\n\tcout << ptr;\n\n\n\t// char s1[] = \"abc\";\n\n\n\t// char s2[] = s1;\t\n\n}",
+					"include",
+					"}\n",
+					"dim",
+					"N",
+					";\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"visited",
+					"10",
+					"dim"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -362,6 +1666,40 @@
 			"groups":
 			[
 				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/User/Desktop/cpp-toolkit/install.bat",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 68,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				},
+				{
 					"sheets":
 					[
 					]
@@ -369,7 +1707,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 31.0
+				"height": 36.0
 			},
 			"input":
 			{
@@ -384,11 +1722,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.844802342606,
 					1.0
 				],
 				"rows":
@@ -404,18 +1749,18 @@
 			},
 			"output.exec":
 			{
-				"height": 127.0
+				"height": 59.0
 			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/myCppBuild.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,589,397,50,1053",
+			"position": "0,2,3,-1,-1,-1,-1,435,420,39,1076",
 			"project": "",
 			"replace":
 			{
-				"height": 58.0
+				"height": 82.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -449,7 +1794,7 @@
 			"settings":
 			{
 			},
-			"show_minimap": true,
+			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
@@ -457,8 +1802,9 @@
 			"status_bar_visible": true,
 			"template_settings":
 			{
+				"max_columns": 2
 			},
-			"window_id": 1,
+			"window_id": 3,
 			"workspace_name": ""
 		}
 	],
