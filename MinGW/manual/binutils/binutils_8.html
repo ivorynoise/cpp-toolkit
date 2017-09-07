@@ -1,0 +1,167 @@
+<HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Created on May 3, 2002 by texi2html 1.64 -->
+<!-- 
+Written by: Lionel Cons <Lionel.Cons@cern.ch> (original author)
+            Karl Berry  <karl@freefriends.org>
+            Olaf Bachmann <obachman@mathematik.uni-kl.de>
+            and many others.
+Maintained by: Olaf Bachmann <obachman@mathematik.uni-kl.de>
+Send bugs and suggestions to <texi2html@mathematik.uni-kl.de>
+ 
+-->
+<HEAD>
+<TITLE>GNU Binary Utilities: size</TITLE>
+
+<META NAME="description" CONTENT="GNU Binary Utilities: size">
+<META NAME="keywords" CONTENT="GNU Binary Utilities: size">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META NAME="Generator" CONTENT="texi2html 1.64">
+
+</HEAD>
+
+<BODY LANG="EN" BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080" ALINK="#FF0000">
+
+<A NAME="SEC8"></A>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_7.html#SEC7"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_9.html#SEC9"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_9.html#SEC9"> &lt;&lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_9.html#SEC9"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<HR SIZE=1>
+<H1> 6. size </H1>
+<!--docid::SEC8::-->
+<P>
+
+<A NAME="IDX93"></A>
+<A NAME="IDX94"></A>
+</P><P>
+
+<TABLE><tr><td>&nbsp;</td><td class=smallexample><FONT SIZE=-1><pre>size [<SAMP>`-A'</SAMP>|<SAMP>`-B'</SAMP>|<SAMP>`--format='</SAMP><VAR>compatibility</VAR>]
+     [<SAMP>`--help'</SAMP>]
+     [<SAMP>`-d'</SAMP>|<SAMP>`-o'</SAMP>|<SAMP>`-x'</SAMP>|<SAMP>`--radix='</SAMP><VAR>number</VAR>]
+     [<SAMP>`-t'</SAMP>|<SAMP>`--totals'</SAMP>]
+     [<SAMP>`--target='</SAMP><VAR>bfdname</VAR>] [<SAMP>`-V'</SAMP>|<SAMP>`--version'</SAMP>]  
+     [<VAR>objfile</VAR><small>...</small>]
+</FONT></pre></td></tr></table></P><P>
+
+The GNU <CODE>size</CODE> utility lists the section sizes--and the total
+size--for each of the object or archive files <VAR>objfile</VAR> in its
+argument list.  By default, one line of output is generated for each
+object file or each module in an archive.
+</P><P>
+
+<VAR>objfile</VAR><small>...</small> are the object files to be examined.
+If none are specified, the file <CODE>a.out</CODE> will be used.
+</P><P>
+
+The command line options have the following meanings:
+</P><P>
+
+<DL COMPACT>
+<DT><CODE>-A</CODE>
+<DD><DT><CODE>-B</CODE>
+<DD><DT><CODE>--format=<VAR>compatibility</VAR></CODE>
+<DD><A NAME="IDX95"></A>
+Using one of these options, you can choose whether the output from GNU
+<CODE>size</CODE> resembles output from System V <CODE>size</CODE> (using <SAMP>`-A'</SAMP>,
+or <SAMP>`--format=sysv'</SAMP>), or Berkeley <CODE>size</CODE> (using <SAMP>`-B'</SAMP>, or
+<SAMP>`--format=berkeley'</SAMP>).  The default is the one-line format similar to
+Berkeley's.  
+<P>
+
+Here is an example of the Berkeley (default) format of output from
+<CODE>size</CODE>: 
+<TABLE><tr><td>&nbsp;</td><td class=smallexample><FONT SIZE=-1><pre>$ size --format=Berkeley ranlib size
+text    data    bss     dec     hex     filename
+294880  81920   11592   388392  5ed28   ranlib
+294880  81920   11888   388688  5ee50   size
+</FONT></pre></td></tr></table></P><P>
+
+This is the same data, but displayed closer to System V conventions:
+</P><P>
+
+<TABLE><tr><td>&nbsp;</td><td class=smallexample><FONT SIZE=-1><pre>$ size --format=SysV ranlib size
+ranlib  :
+section         size         addr
+.text         294880         8192       
+.data          81920       303104       
+.bss           11592       385024       
+Total         388392    
+
+
+size  :
+section         size         addr
+.text         294880         8192       
+.data          81920       303104       
+.bss           11888       385024       
+Total         388688    
+</FONT></pre></td></tr></table></P><P>
+
+<DT><CODE>--help</CODE>
+<DD>Show a summary of acceptable arguments and options.
+<P>
+
+<DT><CODE>-d</CODE>
+<DD><DT><CODE>-o</CODE>
+<DD><DT><CODE>-x</CODE>
+<DD><DT><CODE>--radix=<VAR>number</VAR></CODE>
+<DD><A NAME="IDX96"></A>
+<A NAME="IDX97"></A>
+Using one of these options, you can control whether the size of each
+section is given in decimal (<SAMP>`-d'</SAMP>, or <SAMP>`--radix=10'</SAMP>); octal
+(<SAMP>`-o'</SAMP>, or <SAMP>`--radix=8'</SAMP>); or hexadecimal (<SAMP>`-x'</SAMP>, or
+<SAMP>`--radix=16'</SAMP>).  In <SAMP>`--radix=<VAR>number</VAR>'</SAMP>, only the three
+values (8, 10, 16) are supported.  The total size is always given in two
+radices; decimal and hexadecimal for <SAMP>`-d'</SAMP> or <SAMP>`-x'</SAMP> output, or
+octal and hexadecimal if you're using <SAMP>`-o'</SAMP>.
+<P>
+
+<DT><CODE>-t</CODE>
+<DD><DT><CODE>--totals</CODE>
+<DD>Show totals of all objects listed (Berkeley format listing mode only).
+<P>
+
+<DT><CODE>--target=<VAR>bfdname</VAR></CODE>
+<DD><A NAME="IDX98"></A>
+Specify that the object-code format for <VAR>objfile</VAR> is
+<VAR>bfdname</VAR>.  This option may not be necessary; <CODE>size</CODE> can
+automatically recognize many formats.
+See section <A HREF="binutils_18.html#SEC18">15.1 Target Selection</A>, for more information.
+<P>
+
+<DT><CODE>-V</CODE>
+<DD><DT><CODE>--version</CODE>
+<DD>Display the version number of <CODE>size</CODE>.
+</DL>
+<P>
+
+<A NAME="strings"></A>
+<HR SIZE=1>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_7.html#SEC7"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_9.html#SEC9"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_9.html#SEC9"> &lt;&lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_9.html#SEC9"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<BR>  
+<FONT SIZE="-1">
+This document was generated
+on <I>May 3, 2002</I>
+using <A HREF="http://www.mathematik.uni-kl.de/~obachman/Texi2html
+"><I>texi2html</I></A>
+
+</BODY>
+</HTML>

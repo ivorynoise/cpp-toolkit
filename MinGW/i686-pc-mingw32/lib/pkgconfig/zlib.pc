@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/7.1.0/i686-pc-mingw32/lib
+sharedlibdir=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/7.1.0/i686-pc-mingw32/lib
+includedir=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/7.1.0/i686-pc-mingw32/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

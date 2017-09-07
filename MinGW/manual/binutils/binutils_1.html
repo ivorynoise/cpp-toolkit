@@ -1,0 +1,131 @@
+<HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Created on May 3, 2002 by texi2html 1.64 -->
+<!-- 
+Written by: Lionel Cons <Lionel.Cons@cern.ch> (original author)
+            Karl Berry  <karl@freefriends.org>
+            Olaf Bachmann <obachman@mathematik.uni-kl.de>
+            and many others.
+Maintained by: Olaf Bachmann <obachman@mathematik.uni-kl.de>
+Send bugs and suggestions to <texi2html@mathematik.uni-kl.de>
+ 
+-->
+<HEAD>
+<TITLE>GNU Binary Utilities: ar</TITLE>
+
+<META NAME="description" CONTENT="GNU Binary Utilities: ar">
+<META NAME="keywords" CONTENT="GNU Binary Utilities: ar">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META NAME="Generator" CONTENT="texi2html 1.64">
+
+</HEAD>
+
+<BODY LANG="EN" BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080" ALINK="#FF0000">
+
+<A NAME="SEC1"></A>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_2.html#SEC2"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[ &lt;&lt; ]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_4.html#SEC4"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<HR SIZE=1>
+<A NAME="ar"></A>
+<H1> 1. ar </H1>
+<!--docid::SEC1::-->
+<P>
+
+<A NAME="IDX2"></A>
+<A NAME="IDX3"></A>
+<A NAME="IDX4"></A>
+</P><P>
+
+<TABLE><tr><td>&nbsp;</td><td class=smallexample><FONT SIZE=-1><pre>ar [-]<VAR>p</VAR>[<VAR>mod</VAR> [<VAR>relpos</VAR>] [<VAR>count</VAR>]] <VAR>archive</VAR> [<VAR>member</VAR><small>...</small>]
+ar -M [ &#60;mri-script ]
+</FONT></pre></td></tr></table></P><P>
+
+The GNU <CODE>ar</CODE> program creates, modifies, and extracts from
+archives.  An <EM>archive</EM> is a single file holding a collection of
+other files in a structure that makes it possible to retrieve
+the original individual files (called <EM>members</EM> of the archive).
+</P><P>
+
+The original files' contents, mode (permissions), timestamp, owner, and
+group are preserved in the archive, and can be restored on
+extraction.  
+</P><P>
+
+<A NAME="IDX5"></A>
+GNU <CODE>ar</CODE> can maintain archives whose members have names of any
+length; however, depending on how <CODE>ar</CODE> is configured on your
+system, a limit on member-name length may be imposed for compatibility
+with archive formats maintained with other tools.  If it exists, the
+limit is often 15 characters (typical of formats related to a.out) or 16
+characters (typical of formats related to coff).
+</P><P>
+
+<A NAME="IDX6"></A>
+<CODE>ar</CODE> is considered a binary utility because archives of this sort
+are most often used as <EM>libraries</EM> holding commonly needed
+subroutines.
+</P><P>
+
+<A NAME="IDX7"></A>
+<CODE>ar</CODE> creates an index to the symbols defined in relocatable
+object modules in the archive when you specify the modifier <SAMP>`s'</SAMP>.
+Once created, this index is updated in the archive whenever <CODE>ar</CODE>
+makes a change to its contents (save for the <SAMP>`q'</SAMP> update operation).
+An archive with such an index speeds up linking to the library, and
+allows routines in the library to call each other without regard to
+their placement in the archive.
+</P><P>
+
+You may use <SAMP>`nm -s'</SAMP> or <SAMP>`nm --print-armap'</SAMP> to list this index
+table.  If an archive lacks the table, another form of <CODE>ar</CODE> called
+<CODE>ranlib</CODE> can be used to add just the table.
+</P><P>
+
+<A NAME="IDX8"></A>
+<A NAME="IDX9"></A>
+GNU <CODE>ar</CODE> is designed to be compatible with two different
+facilities.  You can control its activity using command-line options,
+like the different varieties of <CODE>ar</CODE> on Unix systems; or, if you
+specify the single command-line option <SAMP>`-M'</SAMP>, you can control it
+with a script supplied via standard input, like the MRI "librarian"
+program.
+</P><P>
+
+<BLOCKQUOTE><TABLE BORDER=0 CELLSPACING=0> 
+<TR><TD ALIGN="left" VALIGN="TOP"><A HREF="binutils_2.html#SEC2">1.1 Controlling <CODE>ar</CODE> on the command line</A></TD><TD>&nbsp;&nbsp;</TD><TD ALIGN="left" VALIGN="TOP"></TD></TR>
+<TR><TD ALIGN="left" VALIGN="TOP"><A HREF="binutils_3.html#SEC3">1.2 Controlling <CODE>ar</CODE> with a script</A></TD><TD>&nbsp;&nbsp;</TD><TD ALIGN="left" VALIGN="TOP"></TD></TR>
+</TABLE></BLOCKQUOTE>
+<P>
+
+<A NAME="ar cmdline"></A>
+<HR SIZE=1>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_2.html#SEC2"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[ &lt;&lt; ]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_4.html#SEC4"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<BR>  
+<FONT SIZE="-1">
+This document was generated
+on <I>May 3, 2002</I>
+using <A HREF="http://www.mathematik.uni-kl.de/~obachman/Texi2html
+"><I>texi2html</I></A>
+
+</BODY>
+</HTML>

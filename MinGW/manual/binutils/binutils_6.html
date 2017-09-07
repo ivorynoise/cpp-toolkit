@@ -1,0 +1,442 @@
+<HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Created on May 3, 2002 by texi2html 1.64 -->
+<!-- 
+Written by: Lionel Cons <Lionel.Cons@cern.ch> (original author)
+            Karl Berry  <karl@freefriends.org>
+            Olaf Bachmann <obachman@mathematik.uni-kl.de>
+            and many others.
+Maintained by: Olaf Bachmann <obachman@mathematik.uni-kl.de>
+Send bugs and suggestions to <texi2html@mathematik.uni-kl.de>
+ 
+-->
+<HEAD>
+<TITLE>GNU Binary Utilities: objdump</TITLE>
+
+<META NAME="description" CONTENT="GNU Binary Utilities: objdump">
+<META NAME="keywords" CONTENT="GNU Binary Utilities: objdump">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META NAME="Generator" CONTENT="texi2html 1.64">
+
+</HEAD>
+
+<BODY LANG="EN" BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080" ALINK="#FF0000">
+
+<A NAME="SEC6"></A>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_5.html#SEC5"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_7.html#SEC7"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_7.html#SEC7"> &lt;&lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_7.html#SEC7"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<HR SIZE=1>
+<H1> 4. objdump </H1>
+<!--docid::SEC6::-->
+<P>
+
+<A NAME="IDX53"></A>
+<A NAME="IDX54"></A>
+</P><P>
+
+<TABLE><tr><td>&nbsp;</td><td class=smallexample><FONT SIZE=-1><pre>objdump [<SAMP>`-a'</SAMP>|<SAMP>`--archive-headers'</SAMP>]
+        [<SAMP>`-b'</SAMP> <VAR>bfdname</VAR>|<SAMP>`--target=<VAR>bfdname</VAR>'</SAMP>]
+        [<SAMP>`-C'</SAMP>|<SAMP>`--demangle'</SAMP>[=<VAR>style</VAR>] ]
+        [<SAMP>`-d'</SAMP>|<SAMP>`--disassemble'</SAMP>]
+        [<SAMP>`-D'</SAMP>|<SAMP>`--disassemble-all'</SAMP>]
+        [<SAMP>`-z'</SAMP>|<SAMP>`--disassemble-zeroes'</SAMP>]
+        [<SAMP>`-EB'</SAMP>|<SAMP>`-EL'</SAMP>|<SAMP>`--endian='</SAMP>{big | little }]
+        [<SAMP>`-f'</SAMP>|<SAMP>`--file-headers'</SAMP>]
+        [<SAMP>`--file-start-context'</SAMP>]
+        [<SAMP>`-g'</SAMP>|<SAMP>`--debugging'</SAMP>]
+        [<SAMP>`-h'</SAMP>|<SAMP>`--section-headers'</SAMP>|<SAMP>`--headers'</SAMP>]
+        [<SAMP>`-i'</SAMP>|<SAMP>`--info'</SAMP>]
+        [<SAMP>`-j'</SAMP> <VAR>section</VAR>|<SAMP>`--section='</SAMP><VAR>section</VAR>]
+        [<SAMP>`-l'</SAMP>|<SAMP>`--line-numbers'</SAMP>]
+        [<SAMP>`-S'</SAMP>|<SAMP>`--source'</SAMP>]
+        [<SAMP>`-m'</SAMP> <VAR>machine</VAR>|<SAMP>`--architecture='</SAMP><VAR>machine</VAR>]
+        [<SAMP>`-M'</SAMP> <VAR>options</VAR>|<SAMP>`--disassembler-options='</SAMP><VAR>options</VAR>]
+        [<SAMP>`-p'</SAMP>|<SAMP>`--private-headers'</SAMP>]
+        [<SAMP>`-r'</SAMP>|<SAMP>`--reloc'</SAMP>]
+        [<SAMP>`-R'</SAMP>|<SAMP>`--dynamic-reloc'</SAMP>]
+        [<SAMP>`-s'</SAMP>|<SAMP>`--full-contents'</SAMP>]
+        [<SAMP>`-G'</SAMP>|<SAMP>`--stabs'</SAMP>]
+        [<SAMP>`-t'</SAMP>|<SAMP>`--syms'</SAMP>]
+        [<SAMP>`-T'</SAMP>|<SAMP>`--dynamic-syms'</SAMP>]
+        [<SAMP>`-x'</SAMP>|<SAMP>`--all-headers'</SAMP>]
+        [<SAMP>`-w'</SAMP>|<SAMP>`--wide'</SAMP>]
+        [<SAMP>`--start-address='</SAMP><VAR>address</VAR>]
+        [<SAMP>`--stop-address='</SAMP><VAR>address</VAR>]
+        [<SAMP>`--prefix-addresses'</SAMP>]
+        [<SAMP>`--[no-]show-raw-insn'</SAMP>]
+        [<SAMP>`--adjust-vma='</SAMP><VAR>offset</VAR>]
+        [<SAMP>`-V'</SAMP>|<SAMP>`--version'</SAMP>]
+        [<SAMP>`-H'</SAMP>|<SAMP>`--help'</SAMP>]
+        <VAR>objfile</VAR><small>...</small>
+</FONT></pre></td></tr></table></P><P>
+
+<CODE>objdump</CODE> displays information about one or more object files.
+The options control what particular information to display.  This
+information is mostly useful to programmers who are working on the
+compilation tools, as opposed to programmers who just want their
+program to compile and work.
+</P><P>
+
+<VAR>objfile</VAR><small>...</small> are the object files to be examined.  When you
+specify archives, <CODE>objdump</CODE> shows information on each of the member
+object files.
+</P><P>
+
+The long and short forms of options, shown here as alternatives, are
+equivalent.  At least one option from the list
+<SAMP>`-a,-d,-D,-f,-g,-G,-h,-H,-p,-r,-R,-S,-t,-T,-V,-x'</SAMP> must be given. 
+</P><P>
+
+<DL COMPACT>
+<DT><CODE>-a</CODE>
+<DD><DT><CODE>--archive-header</CODE>
+<DD><A NAME="IDX55"></A>
+If any of the <VAR>objfile</VAR> files are archives, display the archive
+header information (in a format similar to <SAMP>`ls -l'</SAMP>).  Besides the
+information you could list with <SAMP>`ar tv'</SAMP>, <SAMP>`objdump -a'</SAMP> shows
+the object file format of each archive member.
+<P>
+
+<DT><CODE>--adjust-vma=<VAR>offset</VAR></CODE>
+<DD><A NAME="IDX56"></A>
+<A NAME="IDX57"></A>
+When dumping information, first add <VAR>offset</VAR> to all the section
+addresses.  This is useful if the section addresses do not correspond to
+the symbol table, which can happen when putting sections at particular
+addresses when using a format which can not represent section addresses,
+such as a.out.
+<P>
+
+<DT><CODE>-b <VAR>bfdname</VAR></CODE>
+<DD><DT><CODE>--target=<VAR>bfdname</VAR></CODE>
+<DD><A NAME="IDX58"></A>
+Specify that the object-code format for the object files is
+<VAR>bfdname</VAR>.  This option may not be necessary; <VAR>objdump</VAR> can
+automatically recognize many formats.
+<P>
+
+For example,
+<TABLE><tr><td>&nbsp;</td><td class=example><pre>objdump -b oasys -m vax -h fu.o
+</pre></td></tr></table>displays summary information from the section headers (<SAMP>`-h'</SAMP>) of
+<TT>`fu.o'</TT>, which is explicitly identified (<SAMP>`-m'</SAMP>) as a VAX object
+file in the format produced by Oasys compilers.  You can list the
+formats available with the <SAMP>`-i'</SAMP> option.
+See section <A HREF="binutils_18.html#SEC18">15.1 Target Selection</A>, for more information.
+</P><P>
+
+<DT><CODE>-C</CODE>
+<DD><DT><CODE>--demangle[=<VAR>style</VAR>]</CODE>
+<DD><A NAME="IDX59"></A>
+Decode (<EM>demangle</EM>) low-level symbol names into user-level names.
+Besides removing any initial underscore prepended by the system, this
+makes C++ function names readable.  Different compilers have different
+mangling styles. The optional demangling style argument can be used to 
+choose an appropriate demangling style for your compiler. See section <A HREF="binutils_11.html#SEC11">9. c++filt</A>, 
+for more information on demangling.
+<P>
+
+<DT><CODE>-G</CODE>
+<DD><DT><CODE>--debugging</CODE>
+<DD>Display debugging information.  This attempts to parse debugging
+information stored in the file and print it out using a C like syntax.
+Only certain types of debugging information have been implemented.
+<P>
+
+<DT><CODE>-d</CODE>
+<DD><DT><CODE>--disassemble</CODE>
+<DD><A NAME="IDX60"></A>
+<A NAME="IDX61"></A>
+Display the assembler mnemonics for the machine instructions from
+<VAR>objfile</VAR>.  This option only disassembles those sections which are
+expected to contain instructions.
+<P>
+
+<DT><CODE>-D</CODE>
+<DD><DT><CODE>--disassemble-all</CODE>
+<DD>Like <SAMP>`-d'</SAMP>, but disassemble the contents of all sections, not just
+those expected to contain instructions.
+<P>
+
+<DT><CODE>--prefix-addresses</CODE>
+<DD>When disassembling, print the complete address on each line.  This is
+the older disassembly format.
+<P>
+
+<DT><CODE>--disassemble-zeroes</CODE>
+<DD>Normally the disassembly output will skip blocks of zeroes.  This
+option directs the disassembler to disassemble those blocks, just like
+any other data.
+<P>
+
+<DT><CODE>-EB</CODE>
+<DD><DT><CODE>-EL</CODE>
+<DD><DT><CODE>--endian={big|little}</CODE>
+<DD><A NAME="IDX62"></A>
+<A NAME="IDX63"></A>
+Specify the endianness of the object files.  This only affects
+disassembly.  This can be useful when disassembling a file format which
+does not describe endianness information, such as S-records.
+<P>
+
+<DT><CODE>-f</CODE>
+<DD><DT><CODE>--file-header</CODE>
+<DD><A NAME="IDX64"></A>
+Display summary information from the overall header of
+each of the <VAR>objfile</VAR> files.
+<P>
+
+<DT><CODE>--file-start-context</CODE>
+<DD><A NAME="IDX65"></A>
+Specify that when displaying interlisted source code/disassembly
+(assumes <SAMP>`-S'</SAMP>) from a file that has not yet been displayed, extend the
+context to the start of the file.
+<P>
+
+<DT><CODE>-h</CODE>
+<DD><DT><CODE>--section-header</CODE>
+<DD><DT><CODE>--header</CODE>
+<DD><A NAME="IDX66"></A>
+Display summary information from the section headers of the
+object file.
+<P>
+
+File segments may be relocated to nonstandard addresses, for example by
+using the <SAMP>`-Ttext'</SAMP>, <SAMP>`-Tdata'</SAMP>, or <SAMP>`-Tbss'</SAMP> options to
+<CODE>ld</CODE>.  However, some object file formats, such as a.out, do not
+store the starting address of the file segments.  In those situations,
+although <CODE>ld</CODE> relocates the sections correctly, using <SAMP>`objdump
+-h'</SAMP> to list the file section headers cannot show the correct addresses.
+Instead, it shows the usual addresses, which are implicit for the
+target.
+</P><P>
+
+<DT><CODE>--help</CODE>
+<DD>Print a summary of the options to <CODE>objdump</CODE> and exit.
+<P>
+
+<DT><CODE>-i</CODE>
+<DD><DT><CODE>--info</CODE>
+<DD><A NAME="IDX67"></A>
+<A NAME="IDX68"></A>
+Display a list showing all architectures and object formats available
+for specification with <SAMP>`-b'</SAMP> or <SAMP>`-m'</SAMP>.
+<P>
+
+<DT><CODE>-j <VAR>name</VAR></CODE>
+<DD><DT><CODE>--section=<VAR>name</VAR></CODE>
+<DD><A NAME="IDX69"></A>
+Display information only for section <VAR>name</VAR>.
+<P>
+
+<DT><CODE>-l</CODE>
+<DD><DT><CODE>--line-numbers</CODE>
+<DD><A NAME="IDX70"></A>
+Label the display (using debugging information) with the filename and
+source line numbers corresponding to the object code or relocs shown.
+Only useful with <SAMP>`-d'</SAMP>, <SAMP>`-D'</SAMP>, or <SAMP>`-r'</SAMP>.
+<P>
+
+<DT><CODE>-m <VAR>machine</VAR></CODE>
+<DD><DT><CODE>--architecture=<VAR>machine</VAR></CODE>
+<DD><A NAME="IDX71"></A>
+<A NAME="IDX72"></A>
+Specify the architecture to use when disassembling object files.  This
+can be useful when disassembling object files which do not describe
+architecture information, such as S-records.  You can list the available
+architectures with the <SAMP>`-i'</SAMP> option.
+<P>
+
+<DT><CODE>-M <VAR>options</VAR></CODE>
+<DD><DT><CODE>--disassembler-options=<VAR>options</VAR></CODE>
+<DD>Pass target specific information to the disassembler.  Only supported on
+some targets.
+<P>
+
+If the target is an ARM architecture then this switch can be used to
+select which register name set is used during disassembler.  Specifying
+<SAMP>`-M reg-name-std'</SAMP> (the default) will select the register names as
+used in ARM's instruction set documentation, but with register 13 called
+'sp', register 14 called 'lr' and register 15 called 'pc'.  Specifying
+<SAMP>`-M reg-names-apcs'</SAMP> will select the name set used by the ARM
+Procedure Call Standard, whilst specifying <SAMP>`-M reg-names-raw'</SAMP> will
+just use <SAMP>`r'</SAMP> followed by the register number.
+</P><P>
+
+There are also two variants on the APCS register naming scheme enabled
+by <SAMP>`-M reg-names-atpcs'</SAMP> and <SAMP>`-M reg-names-special-atpcs'</SAMP> which
+use the ARM/Thumb Procedure Call Standard naming conventions.  (Either
+with the normal register name or the special register names).
+</P><P>
+
+This option can also be used for ARM architectures to force the
+disassembler to interpret all instructions as Thumb instructions by
+using the switch <SAMP>`--disassembler-options=force-thumb'</SAMP>.  This can be
+useful when attempting to disassemble thumb code produced by other
+compilers.
+</P><P>
+
+For the x86, some of the options duplicate functions of the <SAMP>`-m'</SAMP>
+switch, but allow finer grained control.  Multiple selections from the
+following may be specified as a comma separated string.
+<SAMP>`x86-64'</SAMP>, <SAMP>`i386'</SAMP> and <SAMP>`i8086'</SAMP> select disassembly for
+the given architecture.  <SAMP>`intel'</SAMP> and <SAMP>`att'</SAMP> select between
+intel syntax mode and AT&#38;T syntax mode.  <SAMP>`addr32'</SAMP>,
+<SAMP>`addr16'</SAMP>, <SAMP>`data32'</SAMP> and <SAMP>`data16'</SAMP> specify the default
+address size and operand size.  These four options will be overridden if
+<SAMP>`x86-64'</SAMP>, <SAMP>`i386'</SAMP> or <SAMP>`i8086'</SAMP> appear later in the
+option string.  Lastly, <SAMP>`suffix'</SAMP>, when in AT&#38;T mode,
+instructs the dissassembler to print a mnemonic suffix even when the
+suffix could be inferred by the operands.
+</P><P>
+
+For PPC, <SAMP>`booke'</SAMP>, <SAMP>`booke32'</SAMP> and <SAMP>`booke64'</SAMP> select
+disassembly of BookE instructions.  <SAMP>`32'</SAMP> and <SAMP>`64'</SAMP> select
+PowerPC and PowerPC64 disassembly, respectively.
+</P><P>
+
+<DT><CODE>-p</CODE>
+<DD><DT><CODE>--private-headers</CODE>
+<DD>Print information that is specific to the object file format.  The exact
+information printed depends upon the object file format.  For some
+object file formats, no additional information is printed.
+<P>
+
+<DT><CODE>-r</CODE>
+<DD><DT><CODE>--reloc</CODE>
+<DD><A NAME="IDX73"></A>
+Print the relocation entries of the file.  If used with <SAMP>`-d'</SAMP> or
+<SAMP>`-D'</SAMP>, the relocations are printed interspersed with the
+disassembly.
+<P>
+
+<DT><CODE>-R</CODE>
+<DD><DT><CODE>--dynamic-reloc</CODE>
+<DD><A NAME="IDX74"></A>
+Print the dynamic relocation entries of the file.  This is only
+meaningful for dynamic objects, such as certain types of shared
+libraries.
+<P>
+
+<DT><CODE>-s</CODE>
+<DD><DT><CODE>--full-contents</CODE>
+<DD><A NAME="IDX75"></A>
+<A NAME="IDX76"></A>
+Display the full contents of any sections requested.
+<P>
+
+<DT><CODE>-S</CODE>
+<DD><DT><CODE>--source</CODE>
+<DD><A NAME="IDX77"></A>
+<A NAME="IDX78"></A>
+Display source code intermixed with disassembly, if possible.  Implies
+<SAMP>`-d'</SAMP>.
+<P>
+
+<DT><CODE>--show-raw-insn</CODE>
+<DD>When disassembling instructions, print the instruction in hex as well as
+in symbolic form.  This is the default except when
+<SAMP>`--prefix-addresses'</SAMP> is used.
+<P>
+
+<DT><CODE>--no-show-raw-insn</CODE>
+<DD>When disassembling instructions, do not print the instruction bytes.
+This is the default when <SAMP>`--prefix-addresses'</SAMP> is used.
+<P>
+
+<DT><CODE>-G</CODE>
+<DD><DT><CODE>--stabs</CODE>
+<DD><A NAME="IDX79"></A>
+<A NAME="IDX80"></A>
+<A NAME="IDX81"></A>
+<A NAME="IDX82"></A>
+Display the full contents of any sections requested.  Display the
+contents of the .stab and .stab.index and .stab.excl sections from an
+ELF file.  This is only useful on systems (such as Solaris 2.0) in which
+<CODE>.stab</CODE> debugging symbol-table entries are carried in an ELF
+section.  In most other file formats, debugging symbol-table entries are
+interleaved with linkage symbols, and are visible in the <SAMP>`--syms'</SAMP>
+output.
+For more information on stabs symbols, see section `Stabs Overview' in <CITE>The "stabs" debug format</CITE>.
+<P>
+
+<DT><CODE>--start-address=<VAR>address</VAR></CODE>
+<DD><A NAME="IDX83"></A>
+Start displaying data at the specified address.  This affects the output
+of the <SAMP>`-d'</SAMP>, <SAMP>`-r'</SAMP> and <SAMP>`-s'</SAMP> options.
+<P>
+
+<DT><CODE>--stop-address=<VAR>address</VAR></CODE>
+<DD><A NAME="IDX84"></A>
+Stop displaying data at the specified address.  This affects the output
+of the <SAMP>`-d'</SAMP>, <SAMP>`-r'</SAMP> and <SAMP>`-s'</SAMP> options.
+<P>
+
+<DT><CODE>-t</CODE>
+<DD><DT><CODE>--syms</CODE>
+<DD><A NAME="IDX85"></A>
+Print the symbol table entries of the file.
+This is similar to the information provided by the <SAMP>`nm'</SAMP> program.
+<P>
+
+<DT><CODE>-T</CODE>
+<DD><DT><CODE>--dynamic-syms</CODE>
+<DD><A NAME="IDX86"></A>
+Print the dynamic symbol table entries of the file.  This is only
+meaningful for dynamic objects, such as certain types of shared
+libraries.  This is similar to the information provided by the <SAMP>`nm'</SAMP>
+program when given the <SAMP>`-D'</SAMP> (<SAMP>`--dynamic'</SAMP>) option.
+<P>
+
+<DT><CODE>--version</CODE>
+<DD>Print the version number of <CODE>objdump</CODE> and exit.
+<P>
+
+<DT><CODE>-x</CODE>
+<DD><DT><CODE>--all-header</CODE>
+<DD><A NAME="IDX87"></A>
+<A NAME="IDX88"></A>
+Display all available header information, including the symbol table and
+relocation entries.  Using <SAMP>`-x'</SAMP> is equivalent to specifying all of
+<SAMP>`-a -f -h -r -t'</SAMP>.
+<P>
+
+<DT><CODE>-w</CODE>
+<DD><DT><CODE>--wide</CODE>
+<DD><A NAME="IDX89"></A>
+Format some lines for output devices that have more than 80 columns.
+Also do not truncate symbol names when they are displayed.
+</DL>
+<P>
+
+<A NAME="ranlib"></A>
+<HR SIZE=1>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_5.html#SEC5"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_7.html#SEC7"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_7.html#SEC7"> &lt;&lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_7.html#SEC7"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<BR>  
+<FONT SIZE="-1">
+This document was generated
+on <I>May 3, 2002</I>
+using <A HREF="http://www.mathematik.uni-kl.de/~obachman/Texi2html
+"><I>texi2html</I></A>
+
+</BODY>
+</HTML>

@@ -1,0 +1,247 @@
+<HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Created on May 3, 2002 by texi2html 1.64 -->
+<!-- 
+Written by: Lionel Cons <Lionel.Cons@cern.ch> (original author)
+            Karl Berry  <karl@freefriends.org>
+            Olaf Bachmann <obachman@mathematik.uni-kl.de>
+            and many others.
+Maintained by: Olaf Bachmann <obachman@mathematik.uni-kl.de>
+Send bugs and suggestions to <texi2html@mathematik.uni-kl.de>
+ 
+-->
+<HEAD>
+<TITLE>GNU Binary Utilities: ar scripts</TITLE>
+
+<META NAME="description" CONTENT="GNU Binary Utilities: ar scripts">
+<META NAME="keywords" CONTENT="GNU Binary Utilities: ar scripts">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META NAME="Generator" CONTENT="texi2html 1.64">
+
+</HEAD>
+
+<BODY LANG="EN" BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080" ALINK="#FF0000">
+
+<A NAME="SEC3"></A>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_2.html#SEC2"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_4.html#SEC4"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[ &lt;&lt; ]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_1.html#SEC1"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_4.html#SEC4"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<HR SIZE=1>
+<H2> 1.2 Controlling <CODE>ar</CODE> with a script </H2>
+<!--docid::SEC3::-->
+<P>
+
+<TABLE><tr><td>&nbsp;</td><td class=smallexample><FONT SIZE=-1><pre>ar -M [ &#60;<VAR>script</VAR> ]
+</FONT></pre></td></tr></table></P><P>
+
+<A NAME="IDX27"></A>
+<A NAME="IDX28"></A>
+If you use the single command-line option <SAMP>`-M'</SAMP> with <CODE>ar</CODE>, you
+can control its operation with a rudimentary command language.  This
+form of <CODE>ar</CODE> operates interactively if standard input is coming
+directly from a terminal.  During interactive use, <CODE>ar</CODE> prompts for
+input (the prompt is <SAMP>`AR &#62;'</SAMP>), and continues executing even after
+errors.  If you redirect standard input to a script file, no prompts are
+issued, and <CODE>ar</CODE> abandons execution (with a nonzero exit code)
+on any error.
+</P><P>
+
+The <CODE>ar</CODE> command language is <EM>not</EM> designed to be equivalent
+to the command-line options; in fact, it provides somewhat less control
+over archives.  The only purpose of the command language is to ease the
+transition to GNU <CODE>ar</CODE> for developers who already have scripts
+written for the MRI "librarian" program.
+</P><P>
+
+The syntax for the <CODE>ar</CODE> command language is straightforward:
+<UL>
+<LI>
+commands are recognized in upper or lower case; for example, <CODE>LIST</CODE>
+is the same as <CODE>list</CODE>.  In the following descriptions, commands are
+shown in upper case for clarity.
+<P>
+
+<LI>
+a single command may appear on each line; it is the first word on the
+line.
+<P>
+
+<LI>
+empty lines are allowed, and have no effect.
+<P>
+
+<LI>
+comments are allowed; text after either of the characters <SAMP>`*'</SAMP>
+or <SAMP>`;'</SAMP> is ignored.
+<P>
+
+<LI>
+Whenever you use a list of names as part of the argument to an <CODE>ar</CODE>
+command, you can separate the individual names with either commas or
+blanks.  Commas are shown in the explanations below, for clarity.
+<P>
+
+<LI>
+<SAMP>`+'</SAMP> is used as a line continuation character; if <SAMP>`+'</SAMP> appears
+at the end of a line, the text on the following line is considered part
+of the current command.
+</UL>
+<P>
+
+Here are the commands you can use in <CODE>ar</CODE> scripts, or when using
+<CODE>ar</CODE> interactively.  Three of them have special significance:
+</P><P>
+
+<CODE>OPEN</CODE> or <CODE>CREATE</CODE> specify a <EM>current archive</EM>, which is
+a temporary file required for most of the other commands.
+</P><P>
+
+<CODE>SAVE</CODE> commits the changes so far specified by the script.  Prior
+to <CODE>SAVE</CODE>, commands affect only the temporary copy of the current
+archive.
+</P><P>
+
+<DL COMPACT>
+<DT><CODE>ADDLIB <VAR>archive</VAR></CODE>
+<DD><DT><CODE>ADDLIB <VAR>archive</VAR> (<VAR>module</VAR>, <VAR>module</VAR>, <small>...</small> <VAR>module</VAR>)</CODE>
+<DD>Add all the contents of <VAR>archive</VAR> (or, if specified, each named
+<VAR>module</VAR> from <VAR>archive</VAR>) to the current archive.
+<P>
+
+Requires prior use of <CODE>OPEN</CODE> or <CODE>CREATE</CODE>.
+</P><P>
+
+<DT><CODE>ADDMOD <VAR>member</VAR>, <VAR>member</VAR>, <small>...</small> <VAR>member</VAR></CODE>
+<DD>Add each named <VAR>member</VAR> as a module in the current archive.
+<P>
+
+Requires prior use of <CODE>OPEN</CODE> or <CODE>CREATE</CODE>.
+</P><P>
+
+<DT><CODE>CLEAR</CODE>
+<DD>Discard the contents of the current archive, canceling the effect of
+any operations since the last <CODE>SAVE</CODE>.  May be executed (with no
+effect) even if  no current archive is specified.
+<P>
+
+<DT><CODE>CREATE <VAR>archive</VAR></CODE>
+<DD>Creates an archive, and makes it the current archive (required for many
+other commands).  The new archive is created with a temporary name; it
+is not actually saved as <VAR>archive</VAR> until you use <CODE>SAVE</CODE>.
+You can overwrite existing archives; similarly, the contents of any
+existing file named <VAR>archive</VAR> will not be destroyed until <CODE>SAVE</CODE>.
+<P>
+
+<DT><CODE>DELETE <VAR>module</VAR>, <VAR>module</VAR>, <small>...</small> <VAR>module</VAR></CODE>
+<DD>Delete each listed <VAR>module</VAR> from the current archive; equivalent to
+<SAMP>`ar -d <VAR>archive</VAR> <VAR>module</VAR> <small>...</small> <VAR>module</VAR>'</SAMP>.
+<P>
+
+Requires prior use of <CODE>OPEN</CODE> or <CODE>CREATE</CODE>.
+</P><P>
+
+<DT><CODE>DIRECTORY <VAR>archive</VAR> (<VAR>module</VAR>, <small>...</small> <VAR>module</VAR>)</CODE>
+<DD><DT><CODE>DIRECTORY <VAR>archive</VAR> (<VAR>module</VAR>, <small>...</small> <VAR>module</VAR>) <VAR>outputfile</VAR></CODE>
+<DD>List each named <VAR>module</VAR> present in <VAR>archive</VAR>.  The separate
+command <CODE>VERBOSE</CODE> specifies the form of the output: when verbose
+output is off, output is like that of <SAMP>`ar -t <VAR>archive</VAR>
+<VAR>module</VAR><small>...</small>'</SAMP>.  When verbose output is on, the listing is like
+<SAMP>`ar -tv <VAR>archive</VAR> <VAR>module</VAR><small>...</small>'</SAMP>.
+<P>
+
+Output normally goes to the standard output stream; however, if you
+specify <VAR>outputfile</VAR> as a final argument, <CODE>ar</CODE> directs the
+output to that file.
+</P><P>
+
+<DT><CODE>END</CODE>
+<DD>Exit from <CODE>ar</CODE>, with a <CODE>0</CODE> exit code to indicate successful
+completion.  This command does not save the output file; if you have
+changed the current archive since the last <CODE>SAVE</CODE> command, those
+changes are lost.
+<P>
+
+<DT><CODE>EXTRACT <VAR>module</VAR>, <VAR>module</VAR>, <small>...</small> <VAR>module</VAR></CODE>
+<DD>Extract each named <VAR>module</VAR> from the current archive, writing them
+into the current directory as separate files.  Equivalent to <SAMP>`ar -x
+<VAR>archive</VAR> <VAR>module</VAR><small>...</small>'</SAMP>.
+<P>
+
+Requires prior use of <CODE>OPEN</CODE> or <CODE>CREATE</CODE>.
+</P><P>
+
+<DT><CODE>LIST</CODE>
+<DD>Display full contents of the current archive, in "verbose" style
+regardless of the state of <CODE>VERBOSE</CODE>.  The effect is like <SAMP>`ar
+tv <VAR>archive</VAR>'</SAMP>.  (This single command is a GNU <CODE>ar</CODE>
+enhancement, rather than present for MRI compatibility.)
+<P>
+
+Requires prior use of <CODE>OPEN</CODE> or <CODE>CREATE</CODE>.
+</P><P>
+
+<DT><CODE>OPEN <VAR>archive</VAR></CODE>
+<DD>Opens an existing archive for use as the current archive (required for
+many other commands).  Any changes as the result of subsequent commands
+will not actually affect <VAR>archive</VAR> until you next use <CODE>SAVE</CODE>.
+<P>
+
+<DT><CODE>REPLACE <VAR>module</VAR>, <VAR>module</VAR>, <small>...</small> <VAR>module</VAR></CODE>
+<DD>In the current archive, replace each existing <VAR>module</VAR> (named in
+the <CODE>REPLACE</CODE> arguments) from files in the current working directory.
+To execute this command without errors, both the file, and the module in
+the current archive, must exist. 
+<P>
+
+Requires prior use of <CODE>OPEN</CODE> or <CODE>CREATE</CODE>.
+</P><P>
+
+<DT><CODE>VERBOSE</CODE>
+<DD>Toggle an internal flag governing the output from <CODE>DIRECTORY</CODE>.
+When the flag is on, <CODE>DIRECTORY</CODE> output matches output from
+<SAMP>`ar -tv '</SAMP><small>...</small>.
+<P>
+
+<DT><CODE>SAVE</CODE>
+<DD>Commit your changes to the current archive, and actually save it as a
+file with the name specified in the last <CODE>CREATE</CODE> or <CODE>OPEN</CODE>
+command. 
+<P>
+
+Requires prior use of <CODE>OPEN</CODE> or <CODE>CREATE</CODE>.
+</P><P>
+
+</DL>
+<P>
+
+<A NAME="nm"></A>
+<HR SIZE=1>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_2.html#SEC2"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_4.html#SEC4"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[ &lt;&lt; ]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_1.html#SEC1"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_4.html#SEC4"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<BR>  
+<FONT SIZE="-1">
+This document was generated
+on <I>May 3, 2002</I>
+using <A HREF="http://www.mathematik.uni-kl.de/~obachman/Texi2html
+"><I>texi2html</I></A>
+
+</BODY>
+</HTML>

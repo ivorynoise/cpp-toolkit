@@ -1,0 +1,187 @@
+<HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Created on May 3, 2002 by texi2html 1.64 -->
+<!-- 
+Written by: Lionel Cons <Lionel.Cons@cern.ch> (original author)
+            Karl Berry  <karl@freefriends.org>
+            Olaf Bachmann <obachman@mathematik.uni-kl.de>
+            and many others.
+Maintained by: Olaf Bachmann <obachman@mathematik.uni-kl.de>
+Send bugs and suggestions to <texi2html@mathematik.uni-kl.de>
+ 
+-->
+<HEAD>
+<TITLE>GNU Binary Utilities: strip</TITLE>
+
+<META NAME="description" CONTENT="GNU Binary Utilities: strip">
+<META NAME="keywords" CONTENT="GNU Binary Utilities: strip">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META NAME="Generator" CONTENT="texi2html 1.64">
+
+</HEAD>
+
+<BODY LANG="EN" BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080" ALINK="#FF0000">
+
+<A NAME="SEC10"></A>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_9.html#SEC9"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_11.html#SEC11"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_11.html#SEC11"> &lt;&lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_11.html#SEC11"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<HR SIZE=1>
+<H1> 8. strip </H1>
+<!--docid::SEC10::-->
+<P>
+
+<A NAME="IDX100"></A>
+<A NAME="IDX101"></A>
+<A NAME="IDX102"></A>
+<A NAME="IDX103"></A>
+</P><P>
+
+<TABLE><tr><td>&nbsp;</td><td class=smallexample><FONT SIZE=-1><pre>strip [<SAMP>`-F'</SAMP> <VAR>bfdname</VAR> |<SAMP>`--target='</SAMP><VAR>bfdname</VAR> ]
+      [<SAMP>`-I'</SAMP> <VAR>bfdname</VAR> |<SAMP>`--input-target='</SAMP><VAR>bfdname</VAR> ]
+      [<SAMP>`-O'</SAMP> <VAR>bfdname</VAR> |<SAMP>`--output-target='</SAMP><VAR>bfdname</VAR> ]
+      [<SAMP>`-s'</SAMP>|<SAMP>`--strip-all'</SAMP>] [<SAMP>`-S'</SAMP>|<SAMP>`-g'</SAMP>|<SAMP>`-d'</SAMP>|<SAMP>`--strip-debug'</SAMP>]
+      [<SAMP>`-K'</SAMP> <VAR>symbolname</VAR> |<SAMP>`--keep-symbol='</SAMP><VAR>symbolname</VAR> ]
+      [<SAMP>`-N'</SAMP> <VAR>symbolname</VAR> |<SAMP>`--strip-symbol='</SAMP><VAR>symbolname</VAR> ]
+      [<SAMP>`-x'</SAMP>|<SAMP>`--discard-all'</SAMP> ] [<SAMP>`-X'</SAMP> |<SAMP>`--discard-locals'</SAMP>]
+      [<SAMP>`-R'</SAMP> <VAR>sectionname</VAR> |<SAMP>`--remove-section='</SAMP><VAR>sectionname</VAR> ]
+      [<SAMP>`-o'</SAMP> <VAR>file</VAR> ] [<SAMP>`-p'</SAMP>|<SAMP>`--preserve-dates'</SAMP>]
+      [<SAMP>`-v'</SAMP> |<SAMP>`--verbose'</SAMP>]  [<SAMP>`-V'</SAMP>|<SAMP>`--version'</SAMP>] [<SAMP>`--help'</SAMP>]
+      <VAR>objfile</VAR><small>...</small>
+</FONT></pre></td></tr></table></P><P>
+
+GNU <CODE>strip</CODE> discards all symbols from object files
+<VAR>objfile</VAR>.  The list of object files may include archives.
+At least one object file must be given.
+</P><P>
+
+<CODE>strip</CODE> modifies the files named in its argument,
+rather than writing modified copies under different names.
+</P><P>
+
+<DL COMPACT>
+<DT><CODE>-F <VAR>bfdname</VAR></CODE>
+<DD><DT><CODE>--target=<VAR>bfdname</VAR></CODE>
+<DD>Treat the original <VAR>objfile</VAR> as a file with the object
+code format <VAR>bfdname</VAR>, and rewrite it in the same format.
+See section <A HREF="binutils_18.html#SEC18">15.1 Target Selection</A>, for more information.
+<P>
+
+<DT><CODE>--help</CODE>
+<DD>Show a summary of the options to <CODE>strip</CODE> and exit.
+<P>
+
+<DT><CODE>-I <VAR>bfdname</VAR></CODE>
+<DD><DT><CODE>--input-target=<VAR>bfdname</VAR></CODE>
+<DD>Treat the original <VAR>objfile</VAR> as a file with the object
+code format <VAR>bfdname</VAR>.
+See section <A HREF="binutils_18.html#SEC18">15.1 Target Selection</A>, for more information.
+<P>
+
+<DT><CODE>-O <VAR>bfdname</VAR></CODE>
+<DD><DT><CODE>--output-target=<VAR>bfdname</VAR></CODE>
+<DD>Replace <VAR>objfile</VAR> with a file in the output format <VAR>bfdname</VAR>.
+See section <A HREF="binutils_18.html#SEC18">15.1 Target Selection</A>, for more information.
+<P>
+
+<DT><CODE>-R <VAR>sectionname</VAR></CODE>
+<DD><DT><CODE>--remove-section=<VAR>sectionname</VAR></CODE>
+<DD>Remove any section named <VAR>sectionname</VAR> from the output file.  This
+option may be given more than once.  Note that using this option
+inappropriately may make the output file unusable.
+<P>
+
+<DT><CODE>-s</CODE>
+<DD><DT><CODE>--strip-all</CODE>
+<DD>Remove all symbols.
+<P>
+
+<DT><CODE>-g</CODE>
+<DD><DT><CODE>-S</CODE>
+<DD><DT><CODE>-d</CODE>
+<DD><DT><CODE>--strip-debug</CODE>
+<DD>Remove debugging symbols only.
+<P>
+
+<DT><CODE>--strip-unneeded</CODE>
+<DD>Remove all symbols that are not needed for relocation processing.
+<P>
+
+<DT><CODE>-K <VAR>symbolname</VAR></CODE>
+<DD><DT><CODE>--keep-symbol=<VAR>symbolname</VAR></CODE>
+<DD>Keep only symbol <VAR>symbolname</VAR> from the source file.  This option may
+be given more than once.
+<P>
+
+<DT><CODE>-N <VAR>symbolname</VAR></CODE>
+<DD><DT><CODE>--strip-symbol=<VAR>symbolname</VAR></CODE>
+<DD>Remove symbol <VAR>symbolname</VAR> from the source file. This option may be
+given more than once, and may be combined with strip options other than
+<SAMP>`-K'</SAMP>.
+<P>
+
+<DT><CODE>-o <VAR>file</VAR></CODE>
+<DD>Put the stripped output in <VAR>file</VAR>, rather than replacing the
+existing file.  When this argument is used, only one <VAR>objfile</VAR>
+argument may be specified.
+<P>
+
+<DT><CODE>-p</CODE>
+<DD><DT><CODE>--preserve-dates</CODE>
+<DD>Preserve the access and modification dates of the file.
+<P>
+
+<DT><CODE>-x</CODE>
+<DD><DT><CODE>--discard-all</CODE>
+<DD>Remove non-global symbols.
+<P>
+
+<DT><CODE>-X</CODE>
+<DD><DT><CODE>--discard-locals</CODE>
+<DD>Remove compiler-generated local symbols.
+(These usually start with <SAMP>`L'</SAMP> or <SAMP>`.'</SAMP>.)
+<P>
+
+<DT><CODE>-V</CODE>
+<DD><DT><CODE>--version</CODE>
+<DD>Show the version number for <CODE>strip</CODE>.
+<P>
+
+<DT><CODE>-v</CODE>
+<DD><DT><CODE>--verbose</CODE>
+<DD>Verbose output: list all object files modified.  In the case of
+archives, <SAMP>`strip -v'</SAMP> lists all members of the archive.
+</DL>
+<P>
+
+<A NAME="c++filt"></A>
+<HR SIZE=1>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_9.html#SEC9"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_11.html#SEC11"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_11.html#SEC11"> &lt;&lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_11.html#SEC11"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<BR>  
+<FONT SIZE="-1">
+This document was generated
+on <I>May 3, 2002</I>
+using <A HREF="http://www.mathematik.uni-kl.de/~obachman/Texi2html
+"><I>texi2html</I></A>
+
+</BODY>
+</HTML>

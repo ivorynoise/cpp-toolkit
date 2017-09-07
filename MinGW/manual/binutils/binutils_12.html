@@ -1,0 +1,152 @@
+<HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Created on May 3, 2002 by texi2html 1.64 -->
+<!-- 
+Written by: Lionel Cons <Lionel.Cons@cern.ch> (original author)
+            Karl Berry  <karl@freefriends.org>
+            Olaf Bachmann <obachman@mathematik.uni-kl.de>
+            and many others.
+Maintained by: Olaf Bachmann <obachman@mathematik.uni-kl.de>
+Send bugs and suggestions to <texi2html@mathematik.uni-kl.de>
+ 
+-->
+<HEAD>
+<TITLE>GNU Binary Utilities: addr2line</TITLE>
+
+<META NAME="description" CONTENT="GNU Binary Utilities: addr2line">
+<META NAME="keywords" CONTENT="GNU Binary Utilities: addr2line">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META NAME="Generator" CONTENT="texi2html 1.64">
+
+</HEAD>
+
+<BODY LANG="EN" BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080" ALINK="#FF0000">
+
+<A NAME="SEC12"></A>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_11.html#SEC11"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_13.html#SEC13"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_4.html#SEC4"> &lt;&lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_13.html#SEC13"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<HR SIZE=1>
+<H1> 10. addr2line </H1>
+<!--docid::SEC12::-->
+<P>
+
+<A NAME="IDX107"></A>
+<A NAME="IDX108"></A>
+</P><P>
+
+<TABLE><tr><td>&nbsp;</td><td class=smallexample><FONT SIZE=-1><pre>addr2line [<SAMP>`-b'</SAMP> <VAR>bfdname</VAR>|<SAMP>`--target='</SAMP><VAR>bfdname</VAR>]
+          [<SAMP>`-C'</SAMP>|<SAMP>`--demangle'</SAMP>[=<VAR>style</VAR>]
+          [<SAMP>`-e'</SAMP> <VAR>filename</VAR>|<SAMP>`--exe='</SAMP><VAR>filename</VAR>]
+          [<SAMP>`-f'</SAMP>|<SAMP>`--functions'</SAMP>] [<SAMP>`-s'</SAMP>|<SAMP>`--basename'</SAMP>]
+          [<SAMP>`-H'</SAMP>|<SAMP>`--help'</SAMP>] [<SAMP>`-V'</SAMP>|<SAMP>`--version'</SAMP>]
+          [addr addr <small>...</small>]
+</FONT></pre></td></tr></table></P><P>
+
+<CODE>addr2line</CODE> translates program addresses into file names and line
+numbers.  Given an address and an executable, it uses the debugging
+information in the executable to figure out which file name and line
+number are associated with a given address.
+</P><P>
+
+The executable to use is specified with the <SAMP>`-e'</SAMP> option.  The
+default is the file <TT>`a.out'</TT>.
+</P><P>
+
+<CODE>addr2line</CODE> has two modes of operation.
+</P><P>
+
+In the first, hexadecimal addresses are specified on the command line,
+and <CODE>addr2line</CODE> displays the file name and line number for each
+address.
+</P><P>
+
+In the second, <CODE>addr2line</CODE> reads hexadecimal addresses from
+standard input, and prints the file name and line number for each
+address on standard output.  In this mode, <CODE>addr2line</CODE> may be used
+in a pipe to convert dynamically chosen addresses.
+</P><P>
+
+The format of the output is <SAMP>`FILENAME:LINENO'</SAMP>.  The file name and
+line number for each address is printed on a separate line.  If the
+<CODE>-f</CODE> option is used, then each <SAMP>`FILENAME:LINENO'</SAMP> line is
+preceded by a <SAMP>`FUNCTIONNAME'</SAMP> line which is the name of the function
+containing the address.
+</P><P>
+
+If the file name or function name can not be determined,
+<CODE>addr2line</CODE> will print two question marks in their place.  If the
+line number can not be determined, <CODE>addr2line</CODE> will print 0.
+</P><P>
+
+The long and short forms of options, shown here as alternatives, are
+equivalent.
+</P><P>
+
+<DL COMPACT>
+<DT><CODE>-b <VAR>bfdname</VAR></CODE>
+<DD><DT><CODE>--target=<VAR>bfdname</VAR></CODE>
+<DD><A NAME="IDX109"></A>
+Specify that the object-code format for the object files is
+<VAR>bfdname</VAR>.
+<P>
+
+<DT><CODE>-C</CODE>
+<DD><DT><CODE>--demangle[=<VAR>style</VAR>]</CODE>
+<DD><A NAME="IDX110"></A>
+Decode (<EM>demangle</EM>) low-level symbol names into user-level names.
+Besides removing any initial underscore prepended by the system, this
+makes C++ function names readable.  Different compilers have different
+mangling styles. The optional demangling style argument can be used to 
+choose an appropriate demangling style for your compiler. See section <A HREF="binutils_11.html#SEC11">9. c++filt</A>, 
+for more information on demangling.
+<P>
+
+<DT><CODE>-e <VAR>filename</VAR></CODE>
+<DD><DT><CODE>--exe=<VAR>filename</VAR></CODE>
+<DD>Specify the name of the executable for which addresses should be
+translated.  The default file is <TT>`a.out'</TT>.
+<P>
+
+<DT><CODE>-f</CODE>
+<DD><DT><CODE>--functions</CODE>
+<DD>Display function names as well as file and line number information.
+<P>
+
+<DT><CODE>-s</CODE>
+<DD><DT><CODE>--basenames</CODE>
+<DD>Display only the base of each file name.
+</DL>
+<P>
+
+<A NAME="nlmconv"></A>
+<HR SIZE=1>
+<TABLE CELLPADDING=1 CELLSPACING=1 BORDER=0>
+<TR><TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_11.html#SEC11"> &lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_13.html#SEC13"> &gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_4.html#SEC4"> &lt;&lt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top"> Up </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_13.html#SEC13"> &gt;&gt; </A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT"> &nbsp; <TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils.html#SEC_Top">Top</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_toc.html#SEC_Contents">Contents</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_25.html#SEC35">Index</A>]</TD>
+<TD VALIGN="MIDDLE" ALIGN="LEFT">[<A HREF="binutils_abt.html#SEC_About"> ? </A>]</TD>
+</TR></TABLE>
+<BR>  
+<FONT SIZE="-1">
+This document was generated
+on <I>May 3, 2002</I>
+using <A HREF="http://www.mathematik.uni-kl.de/~obachman/Texi2html
+"><I>texi2html</I></A>
+
+</BODY>
+</HTML>
