@@ -1740,8 +1740,8 @@
 								"selection":
 								[
 									[
-										1887,
-										1887
+										240,
+										240
 									]
 								],
 								"settings":
@@ -1749,7 +1749,7 @@
 									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 2312.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1802,7 +1802,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/myCppBuild.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,575,1086,179,1742",
+			"position": "0,2,3,-32000,-32000,-1,-1,575,1086,179,1742",
 			"project": "",
 			"replace":
 			{
