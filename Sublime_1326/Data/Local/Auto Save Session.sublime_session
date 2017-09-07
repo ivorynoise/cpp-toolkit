@@ -1409,58 +1409,12 @@
 			"buffers":
 			[
 				{
-					"file": "/C/cloudStorage/competitive-programming/459-d.cpp",
-					"settings":
-					{
-						"buffer_size": 1362,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/C/cloudStorage/competitive-programming/10004_bicolor.cpp",
-					"settings":
-					{
-						"buffer_size": 1336,
-						"line_ending": "Unix"
-					}
-				},
-				{
 					"file": "/C/cloudStorage/cpp-toolkit/README.md",
 					"settings":
 					{
-						"buffer_size": 1905,
+						"buffer_size": 1910,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "# shortlr\n\nAn URL shortening service written in **_express_**\n\n\n## Getting Started\n\nThese instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.\n\n### Prerequisites\n\n* NodeJS\n* Node Packet Manager(NPM)F\n* Git\n* PostgreSQL\n\n\n### Installing\n\nA step by step series of examples that tell you have to get a development environment running\n\n1. Download ZIP file or clone the repository to create your own copy.\n```\ngit clone https://github.com/coding-blocks/shortlr\n```\n2. Move to the shortlr repository\n\n```\ncd ./shortlr\n```\n3. Install all project dependency packages via NPM\n\n```\nnpm install\n```\n4. Set up PostgreSQL\n * If you don't have PostgreSQL setup on you machine you can download it from [here](https://www.postgresql.org/download/).\n \n * After Installation is complete create a new PostgreSQL user **shorturl** with password as **shorturl**.\n \n * Create a new database in PostgreSQL server with name **shorturl**.\n \n5. Start the server.\n  ```\n  npm start\n  ```\n  And see it working on http://localhost:4000/admin \n  \n\n## Deploying to Heroku\n\n```\nheroku create\ngit push heroku master\nheroku open\n```\n\nAlternatively, you can deploy your own copy of the app using this button:\n\n[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)\n\n## Authors\n* Arnav Gupta -- [championswimmer](https://github.com/championswimmer)\n\nSee also the list of [contributors](https://github.com/coding-blocks/shortlr/graphs/contributors) who are participating in this project.\n\n\n### Demo\n\n![Shortlr demo](docs/shortlr.gif)\n\n\n[![NPM](https://nodei.co/npm/shortlr.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/shortlr/)\n\n\n\n\n\n\n",
-					"file": "/C/Users/deepak_aggarwal/Desktop/shortlr/README.md",
-					"file_size": 1883,
-					"file_write_time": 131488190241529671,
-					"settings":
-					{
-						"buffer_size": 1805,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
-					"settings":
-					{
-						"buffer_size": 178,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/C/Users/deepak_aggarwal/Desktop/trash/test.cpp",
-					"settings":
-					{
-						"buffer_size": 130,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
 					}
 				}
 			],
@@ -1568,9 +1522,13 @@
 			},
 			"file_history":
 			[
+				"/C/cloudStorage/competitive-programming/459-d.cpp",
+				"/C/cloudStorage/competitive-programming/10004_bicolor.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/shortlr/README.md",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
+				"/C/Users/deepak_aggarwal/Desktop/trash/test.cpp",
 				"/C/cloudStorage/cpp-toolkit/README.md",
 				"/C/Users/deepak_aggarwal/Desktop/trash/A_copy.cpp",
-				"/C/Users/deepak_aggarwal/Desktop/trash/test.cpp",
 				"/C/Users/deepak_aggarwal/Desktop/trash/newScript.vbs",
 				"/C/Users/deepak_aggarwal/Downloads/gdb_stl_utils.txt",
 				"/C/Users/deepak_aggarwal/Downloads/StlStdContainers.cc",
@@ -1582,7 +1540,6 @@
 				"/C/cloudStorage/Algo17_Autumn_Pitampura/README.md",
 				"/C/cloudStorage/algo-sept-b1-17/Lecture-01 Recursion, STL/dynamic.cpp",
 				"/C/Users/deepak_aggarwal/Desktop/trash/hello.js",
-				"/C/Users/deepak_aggarwal/Desktop/shortlr/README.md",
 				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/Terminality/Default.sublime-keymap",
 				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/Terminality.sublime-keymap",
 				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/Terminality/README.md",
@@ -1626,7 +1583,6 @@
 				"/C/Users/deepak_aggarwal/Desktop/trash/mycalc.cpp",
 				"/C/Users/deepak_aggarwal/Music/archive-music.txt",
 				"/C/Users/deepak_aggarwal/Music/archive.txt",
-				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
 				"/C/Users/deepak_aggarwal/Desktop/file2",
 				"/C/Users/deepak_aggarwal/Desktop/file",
 				"/C/Users/deepak_aggarwal/Desktop/shortlr/app.json",
@@ -1680,7 +1636,6 @@
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/03_languageConstructs/decToBin.cpp",
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/03_languageConstructs/cntDig.cpp",
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/03_languageConstructs/sqrt.cpp",
-				"/C/cloudStorage/competitive-programming/10004_bicolor.cpp",
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/.gitignore",
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/01_fundamentals/hello_world.cpp",
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/02_pattern/largest3.cpp",
@@ -1694,8 +1649,7 @@
 				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/Terminal/Terminal.sublime-settings",
 				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/Terminal.sublime-settings",
 				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/astronauts.cpp",
-				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/forest_fire.cpp",
-				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/coupon.cpp"
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/forest_fire.cpp"
 			],
 			"find":
 			{
@@ -1770,82 +1724,24 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/C/cloudStorage/competitive-programming/459-d.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1362,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										367,
-										367
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 664.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/C/cloudStorage/competitive-programming/10004_bicolor.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1336,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										608,
-										608
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 677.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
 							"file": "/C/cloudStorage/cpp-toolkit/README.md",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1905,
+								"buffer_size": 1910,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1904,
-										1904
+										1887,
+										1887
 									]
 								],
 								"settings":
@@ -1853,95 +1749,10 @@
 									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 2144.0,
+								"translation.y": 2312.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/C/Users/deepak_aggarwal/Desktop/shortlr/README.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1805,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1319,
-										1320
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 2714.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 178,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										178
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/C/Users/deepak_aggarwal/Desktop/trash/test.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 130,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										127,
-										127
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -1991,7 +1802,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/myCppBuild.sublime-build",
-			"position": "0,2,3,-32000,-32000,-1,-1,575,1086,179,1742",
+			"position": "0,2,3,-1,-1,-1,-1,575,1086,179,1742",
 			"project": "",
 			"replace":
 			{

@@ -4,9 +4,13 @@ This repository contains few tools to quickly get started with C++ using standar
 
 ## Getting Started
 1. Extract/Clone this folder to any location (preferably Desktop)
+
 ![Get the URL](images/download.png)
+
 2. Inside the folder `cpp-toolkit`, double click `install.bat`
+
 3. Inside the folder `Sublime_1326`, right click `sublime_text.exe`. Choose `Send to` --> `Desktop`.
+
 ![Image](images/shortcut.png)
 
 The installation is complete.
@@ -55,5 +59,5 @@ The following file has been used as a build system for C++ programs.
 ### Other Notes
 The setup for windows has been downloaded from [http://www.equation.com/servlet/equation.cmd?fa=fortran](http://www.equation.com/servlet/equation.cmd?fa=fortran)
 
-##Author
+## Author
 Deepak Aggarwal

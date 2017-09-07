@@ -1409,10 +1409,10 @@
 			"buffers":
 			[
 				{
-					"file": "/C/cloudStorage/competitive-programming/459-d.cpp",
+					"file": "/C/cloudStorage/cpp-toolkit/README.md",
 					"settings":
 					{
-						"buffer_size": 1362,
+						"buffer_size": 1905,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1457,7 +1457,7 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 784.0,
+				"height": 335.0,
 				"last_filter": "termina",
 				"selected_items":
 				[
@@ -1522,9 +1522,13 @@
 			},
 			"file_history":
 			[
+				"/C/cloudStorage/competitive-programming/459-d.cpp",
+				"/C/cloudStorage/competitive-programming/10004_bicolor.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/shortlr/README.md",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
+				"/C/Users/deepak_aggarwal/Desktop/trash/test.cpp",
 				"/C/cloudStorage/cpp-toolkit/README.md",
 				"/C/Users/deepak_aggarwal/Desktop/trash/A_copy.cpp",
-				"/C/Users/deepak_aggarwal/Desktop/trash/test.cpp",
 				"/C/Users/deepak_aggarwal/Desktop/trash/newScript.vbs",
 				"/C/Users/deepak_aggarwal/Downloads/gdb_stl_utils.txt",
 				"/C/Users/deepak_aggarwal/Downloads/StlStdContainers.cc",
@@ -1536,7 +1540,6 @@
 				"/C/cloudStorage/Algo17_Autumn_Pitampura/README.md",
 				"/C/cloudStorage/algo-sept-b1-17/Lecture-01 Recursion, STL/dynamic.cpp",
 				"/C/Users/deepak_aggarwal/Desktop/trash/hello.js",
-				"/C/Users/deepak_aggarwal/Desktop/shortlr/README.md",
 				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/Terminality/Default.sublime-keymap",
 				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/Terminality.sublime-keymap",
 				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/Terminality/README.md",
@@ -1580,7 +1583,6 @@
 				"/C/Users/deepak_aggarwal/Desktop/trash/mycalc.cpp",
 				"/C/Users/deepak_aggarwal/Music/archive-music.txt",
 				"/C/Users/deepak_aggarwal/Music/archive.txt",
-				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
 				"/C/Users/deepak_aggarwal/Desktop/file2",
 				"/C/Users/deepak_aggarwal/Desktop/file",
 				"/C/Users/deepak_aggarwal/Desktop/shortlr/app.json",
@@ -1634,7 +1636,6 @@
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/03_languageConstructs/decToBin.cpp",
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/03_languageConstructs/cntDig.cpp",
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/03_languageConstructs/sqrt.cpp",
-				"/C/cloudStorage/competitive-programming/10004_bicolor.cpp",
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/.gitignore",
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/01_fundamentals/hello_world.cpp",
 				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/02_pattern/largest3.cpp",
@@ -1648,12 +1649,11 @@
 				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/Terminal/Terminal.sublime-settings",
 				"/C/Users/User/Desktop/cpp-toolkit/Sublime_1326/Data/Packages/User/Terminal.sublime-settings",
 				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/astronauts.cpp",
-				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/forest_fire.cpp",
-				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/coupon.cpp"
+				"/C/Users/User/Desktop/Launchpad2_17_Summer_Pitampura/31-Jul_24/forest_fire.cpp"
 			],
 			"find":
 			{
-				"height": 71.0
+				"height": 74.0
 			},
 			"find_in_files":
 			{
@@ -1667,6 +1667,7 @@
 				"case_sensitive": true,
 				"find_history":
 				[
+					"!",
 					"gcc",
 					"cutLen",
 					" ;",
@@ -1728,28 +1729,27 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/C/cloudStorage/competitive-programming/459-d.cpp",
+							"file": "/C/cloudStorage/cpp-toolkit/README.md",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1362,
+								"buffer_size": 1905,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										159,
-										159
+										1904,
+										1904
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/C++/C++.sublime-syntax",
-									"translate_tabs_to_spaces": false
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 531.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1802,11 +1802,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/myCppBuild.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,575,1086,179,1742",
+			"position": "0,2,3,-32000,-32000,-1,-1,575,1086,179,1742",
 			"project": "",
 			"replace":
 			{
-				"height": 140.0
+				"height": 112.0
 			},
 			"save_all_on_build": false,
 			"select_file":
