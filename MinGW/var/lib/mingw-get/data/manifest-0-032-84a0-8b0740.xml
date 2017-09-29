@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-032-84a0-8b0740">
+    <release tarname="gdb-7.6.1-1-mingw32-lic.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="share" />
+        <dir path="share/doc" />
+        <dir path="share/doc/gdb" />
+        <dir path="share/doc/gdb/7.6.1" />
+        <file path="share/doc/gdb/7.6.1/COPYING" />
+        <file path="share/doc/gdb/7.6.1/COPYING.LIB" />
+        <file path="share/doc/gdb/7.6.1/COPYING3" />
+        <file path="share/doc/gdb/7.6.1/COPYING3.LIB" />
+        <dir path="share/doc/gdb/7.6.1/gdb" />
+        <file path="share/doc/gdb/7.6.1/gdb/COPYING" />
+        <dir path="share/doc/gdb/7.6.1/include" />
+        <file path="share/doc/gdb/7.6.1/include/COPYING" />
+        <file path="share/doc/gdb/7.6.1/include/COPYING3" />
+        <dir path="share/doc/gdb/7.6.1/libiberty" />
+        <file path="share/doc/gdb/7.6.1/libiberty/COPYING.LIB" />
+        <dir path="share/doc/gdb/7.6.1/readline" />
+        <file path="share/doc/gdb/7.6.1/readline/COPYING" />
+        <dir path="share/doc/gdb/7.6.1/sim" />
+        <dir path="share/doc/gdb/7.6.1/sim/arm" />
+        <file path="share/doc/gdb/7.6.1/sim/arm/COPYING" />
+        <dir path="share/doc/gdb/7.6.1/sim/ppc" />
+        <file path="share/doc/gdb/7.6.1/sim/ppc/COPYING" />
+        <file path="share/doc/gdb/7.6.1/sim/ppc/COPYING.LIB" />
+    </manifest>
+</package>

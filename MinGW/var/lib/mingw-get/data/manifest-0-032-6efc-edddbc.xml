@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-032-6efc-edddbc">
+    <release tarname="gdb-7.6.1-1-mingw32-doc.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="share" />
+        <dir path="share/doc" />
+        <dir path="share/doc/gdb" />
+        <dir path="share/doc/gdb/7.6.1" />
+        <dir path="share/doc/gdb/7.6.1/bfd" />
+        <file path="share/doc/gdb/7.6.1/bfd/ChangeLog" />
+        <dir path="share/doc/gdb/7.6.1/bfd/doc" />
+        <file path="share/doc/gdb/7.6.1/bfd/doc/ChangeLog" />
+        <file path="share/doc/gdb/7.6.1/bfd/MAINTAINERS" />
+        <file path="share/doc/gdb/7.6.1/bfd/PORTING" />
+        <file path="share/doc/gdb/7.6.1/bfd/README" />
+        <file path="share/doc/gdb/7.6.1/bfd/TODO" />
+        <file path="share/doc/gdb/7.6.1/ChangeLog" />
+        <dir path="share/doc/gdb/7.6.1/config" />
+        <file path="share/doc/gdb/7.6.1/config/ChangeLog" />
+        <dir path="share/doc/gdb/7.6.1/cpu" />
+        <file path="share/doc/gdb/7.6.1/cpu/ChangeLog" />
+        <dir path="share/doc/gdb/7.6.1/etc" />
+        <file path="share/doc/gdb/7.6.1/etc/ChangeLog" />
+        <dir path="share/doc/gdb/7.6.1/gdb" />
+        <file path="share/doc/gdb/7.6.1/gdb/ChangeLog" />
+        <file path="share/doc/gdb/7.6.1/gdb/CONTRIBUTE" />
+        <dir path="share/doc/gdb/7.6.1/gdb/doc" />
+        <file path="share/doc/gdb/7.6.1/gdb/doc/ChangeLog" />
+        <dir path="share/doc/gdb/7.6.1/gdb/gdbserver" />
+        <file path="share/doc/gdb/7.6.1/gdb/gdbserver/ChangeLog" />
+        <file path="share/doc/gdb/7.6.1/gdb/MAINTAINERS" />
+        <file path="share/doc/gdb/7.6.1/gdb/NEWS" />
+        <file path="share/doc/gdb/7.6.1/gdb/PROBLEMS" />
+        <file path="share/doc/gdb/7.6.1/gdb/README" />
+        <dir path="share/doc/gdb/7.6.1/gdb/stubs" />
+        <file path="share/doc/gdb/7.6.1/gdb/stubs/ChangeLog" />
+        <dir path="share/doc/gdb/7.6.1/gdb/testsuite" />
+        <file path="share/doc/gdb/7.6.1/gdb/testsuite/ChangeLog" />
+        <dir path="share/doc/gdb/7.6.1/include" />
+        <file path="share/doc/gdb/7.6.1/include/ChangeLog" />
+        <file path="share/doc/gdb/7.6.1/include/MAINTAINERS" />
+        <dir path="share/doc/gdb/7.6.1/intl" />
+        <file path="share/doc/gdb/7.6.1/intl/ChangeLog" />
+        <file path="share/doc/gdb/7.6.1/intl/README" />
+        <file path="share/doc/gdb/7.6.1/intl/VERSION" />
+        <dir path="share/doc/gdb/7.6.1/libdecnumber" />
+        <file path="share/doc/gdb/7.6.1/libdecnumber/ChangeLog" />
+        <dir path="share/doc/gdb/7.6.1/libiberty" />
+        <file path="share/doc/gdb/7.6.1/libiberty/ChangeLog" />
+        <file path="share/doc/gdb/7.6.1/libiberty/README" />
+        <file path="share/doc/gdb/7.6.1/MAINTAINERS" />
+        <dir path="share/doc/gdb/7.6.1/opcodes" />
+        <file path="share/doc/gdb/7.6.1/opcodes/ChangeLog" />
+        <file path="share/doc/gdb/7.6.1/opcodes/MAINTAINERS" />
+        <dir path="share/doc/gdb/7.6.1/readline" />
+        <file path="share/doc/gdb/7.6.1/readline/CHANGELOG" />
+        <file path="share/doc/gdb/7.6.1/readline/ChangeLog.gdb" />
+        <file path="share/doc/gdb/7.6.1/readline/CHANGES" />
+        <file path="share/doc/gdb/7.6.1/readline/INSTALL" />
+        <file path="share/doc/gdb/7.6.1/readline/NEWS" />
+        <file path="share/doc/gdb/7.6.1/readline/README" />
+        <file path="share/doc/gdb/7.6.1/readline/USAGE" />
+        <file path="share/doc/gdb/7.6.1/README" />
+        <file path="share/doc/gdb/7.6.1/README-maintainer-mode" />
+        <file path="share/doc/gdb/7.6.1/README.gdb-7.6.1-1-mingw32" />
+        <dir path="share/doc/gdb/7.6.1/sim" />
+        <file path="share/doc/gdb/7.6.1/sim/ChangeLog" />
+        <file path="share/doc/gdb/7.6.1/sim/MAINTAINERS" />
+        <file path="share/doc/gdb/7.6.1/sim/README-HACKING" />
+    </manifest>
+</package>

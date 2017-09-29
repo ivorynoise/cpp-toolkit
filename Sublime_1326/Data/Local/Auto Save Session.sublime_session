@@ -1,0 +1,1934 @@
+{
+	"folder_history":
+	[
+		"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/explore_california",
+		"/C/Users/User/Desktop/cpp-toolkit/launchpad"
+	],
+	"last_version": 3143,
+	"last_window_id": 19,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1342.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"com",
+						"compUsingBS"
+					],
+					[
+						"m",
+						"mySqrt"
+					],
+					[
+						"mat",
+						"matColEn"
+					],
+					[
+						"so",
+						"solveSudoku"
+					],
+					[
+						"cp",
+						"completeNum"
+					],
+					[
+						"cor",
+						"correspondingChar"
+					],
+					[
+						"pr",
+						"printCodes"
+					],
+					[
+						"print",
+						"printCodes"
+					],
+					[
+						"l",
+						"largestLen"
+					],
+					[
+						"lar",
+						"largest"
+					],
+					[
+						"In",
+						"include"
+					],
+					[
+						"en",
+						"en"
+					],
+					[
+						"is",
+						"isPalindrome"
+					],
+					[
+						"str",
+						"strLength"
+					],
+					[
+						"to",
+						"towerHanoi"
+					],
+					[
+						"out",
+						"outBe"
+					],
+					[
+						"mer",
+						"myMerge"
+					],
+					[
+						"p_a",
+						"p_ca"
+					],
+					[
+						"p_",
+						"p_ia"
+					],
+					[
+						"in",
+						"input"
+					],
+					[
+						"cop",
+						"copyArr"
+					],
+					[
+						"inc",
+						"incArr"
+					],
+					[
+						"r",
+						"rFact"
+					],
+					[
+						"be",
+						"beg1"
+					],
+					[
+						"cl",
+						"clock"
+					],
+					[
+						"rem",
+						"remAmt"
+					],
+					[
+						"prin",
+						"printInc"
+					],
+					[
+						"pri",
+						"printf\tprintf …"
+					],
+					[
+						"den",
+						"deno"
+					],
+					[
+						"de",
+						"deno"
+					],
+					[
+						"comp",
+						"computeExp"
+					],
+					[
+						"beOp",
+						"beOper"
+					],
+					[
+						"beO",
+						"beOper"
+					],
+					[
+						"re",
+						"return"
+					],
+					[
+						"deno",
+						"denominations"
+					],
+					[
+						"denomin",
+						"denominations"
+					],
+					[
+						"cr",
+						"curr_tok"
+					],
+					[
+						"tre",
+						"true"
+					],
+					[
+						"nd",
+						"ndigits"
+					],
+					[
+						"nws",
+						"nws"
+					],
+					[
+						"cur",
+						"curRow"
+					],
+					[
+						"rever",
+						"reversedNum"
+					],
+					[
+						"read",
+						"readNext"
+					],
+					[
+						"num",
+						"num_value"
+					],
+					[
+						"ar",
+						"argv"
+					],
+					[
+						"do",
+						"double"
+					],
+					[
+						"strin",
+						"string"
+					],
+					[
+						"MU",
+						"MINUS"
+					],
+					[
+						"get",
+						"get_token"
+					],
+					[
+						"string",
+						"string_value"
+					],
+					[
+						"no",
+						"no_of_errors"
+					],
+					[
+						"istrea",
+						"istringstream"
+					],
+					[
+						"ret",
+						"retSubString"
+					],
+					[
+						"su",
+						"subStringStart"
+					],
+					[
+						"sun",
+						"subStringStart"
+					],
+					[
+						"sub",
+						"subStringStart"
+					],
+					[
+						"fin",
+						"findSubLen"
+					],
+					[
+						"bin",
+						"binNum"
+					],
+					[
+						"int",
+						"initial"
+					],
+					[
+						"s",
+						"smallest"
+					],
+					[
+						"cha",
+						"charToInt"
+					],
+					[
+						"sr",
+						"srcC"
+					],
+					[
+						"src",
+						"srcR"
+					],
+					[
+						"ins",
+						"insertOp"
+					],
+					[
+						"pre",
+						"preIndex"
+					],
+					[
+						"se",
+						"seqToTree"
+					],
+					[
+						"ind",
+						"inorder"
+					],
+					[
+						"le",
+						"printLevel"
+					],
+					[
+						"ri",
+						"right"
+					],
+					[
+						"lf",
+						"lft"
+					],
+					[
+						"lft",
+						"lftAns"
+					],
+					[
+						"lef",
+						"leftCnt"
+					],
+					[
+						"Node",
+						"maxSumNode"
+					],
+					[
+						"chil",
+						"childNode"
+					],
+					[
+						"chi",
+						"childSum"
+					],
+					[
+						"child",
+						"childNode"
+					],
+					[
+						"fa",
+						"familySum"
+					],
+					[
+						"max",
+						"maxSumNode"
+					],
+					[
+						"ch",
+						"childAns"
+					],
+					[
+						"Q",
+						"Queue"
+					],
+					[
+						"rea",
+						"rear"
+					],
+					[
+						"rand",
+						"randNode"
+					],
+					[
+						"ra",
+						"randNode"
+					],
+					[
+						"ran",
+						"randNo"
+					],
+					[
+						"N",
+						"NULL"
+					],
+					[
+						"rev",
+						"reverseList"
+					],
+					[
+						"cu",
+						"curRow"
+					],
+					[
+						"n",
+						"numOfCC"
+					],
+					[
+						"find",
+						"findNum"
+					],
+					[
+						"cnt",
+						"cntofCC"
+					],
+					[
+						"clone",
+						"clonelinked"
+					],
+					[
+						"clon",
+						"cloning"
+					],
+					[
+						"new",
+						"newNode"
+					],
+					[
+						"nu",
+						"NULL"
+					],
+					[
+						"mid",
+						"midPoint"
+					],
+					[
+						"len",
+						"lengthLL"
+					],
+					[
+						"delete",
+						"deleteNode"
+					],
+					[
+						"ma",
+						"maxProfit"
+					],
+					[
+						"dis",
+						"dijikstra"
+					],
+					[
+						"di",
+						"distFromSrc"
+					],
+					[
+						"v",
+						"Vertex"
+					],
+					[
+						"Pl",
+						"Polynomial"
+					],
+					[
+						"pus",
+						"push_back"
+					],
+					[
+						"vist",
+						"visited"
+					],
+					[
+						"ne",
+						"neighbor"
+					],
+					[
+						"dfs",
+						"dfs_helper"
+					],
+					[
+						"ad",
+						"adjList"
+					],
+					[
+						"x",
+						"xpow"
+					],
+					[
+						"S",
+						"Student"
+					],
+					[
+						"del",
+						"deleteStud"
+					],
+					[
+						"ptr",
+						"ptr_arr"
+					],
+					[
+						"p",
+						"phone"
+					],
+					[
+						"acc",
+						"account"
+					],
+					[
+						"ph",
+						"phone"
+					],
+					[
+						"heap",
+						"heapify"
+					],
+					[
+						"push",
+						"push_back"
+					],
+					[
+						"d",
+						"define"
+					],
+					[
+						"for",
+						"forward"
+					],
+					[
+						"st",
+						"strt"
+					],
+					[
+						"bst",
+						"bstToList"
+					],
+					[
+						"root",
+						"root2"
+					],
+					[
+						"rot",
+						"root2"
+					],
+					[
+						"ro",
+						"root1"
+					],
+					[
+						"roo",
+						"root2"
+					],
+					[
+						"pritn",
+						"printKk"
+					],
+					[
+						"arr",
+						"arrToTree"
+					],
+					[
+						"b",
+						"board"
+					],
+					[
+						"Par",
+						"Pair2"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/myCppBuild.sublime-build",
+							""
+						],
+						[
+							"Packages/User/myCppBuild.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/myCppBuild.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 267.0,
+				"last_filter": "copy wi",
+				"selected_items":
+				[
+					[
+						"copy wi",
+						"Preferences: Copy With Line Numbers Settings - User"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"waka",
+						"WakaTime: Open Dashboard"
+					],
+					[
+						"wak",
+						"WakaTime: Open Dashboard"
+					],
+					[
+						"termina",
+						"Preferences: Terminal Settings – User"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"ter",
+						"Extract Sublime Package: Extract all packages"
+					],
+					[
+						"term",
+						"Preferences: Terminal Settings – Default"
+					],
+					[
+						"ww",
+						"Word Wrap: Toggle"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"extra",
+						"Extract Sublime Package: Extract all packages"
+					]
+				],
+				"width": 904.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/README.md",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/CopyWithLineNumbersReloaded/CopyWithLineNumbersReloaded.sublime-settings",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/CopyWithLineNumbersReloaded.sublime-settings",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/.gitconfig",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/explore_california/index.html",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/gitpr/logs",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/gitpr/logs1",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/gitpr/logs2",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/gitpr/log3",
+				"/C/Users/deepak_aggarwal/.gitconfig_global",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/newproj/1file",
+				"/C/Users/deepak_aggarwal/AppData/Local/Temp/OneNote/16.0/Exported/{916152A0-4943-413C-9519-3AF1B9A3C5CB}/NT/0/archive-music.txt",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/explore_california/contact.html",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/explore_california/mission.html",
+				"/C/Users/deepak_aggarwal/Desktop/text.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/squareRootWithPrec.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/test.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/sudokuSolver.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/nQuees.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/painterProb.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/myHeader.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/phoneKeypad.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/letterPhone.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/squareRoot.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/palindrome.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/concatenate.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/largestStr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/ptrVsArr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/arr2D.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/findIn2D.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/reverseStr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/length.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/intro.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/getlineDemo.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/getlineBufferProtection.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/getlineInt.cpp",
+				"/C/Users/deepak_aggarwal/Downloads/readme.txt",
+				"/C/cloudStorage/cpp-toolkit/MinGW/include/c++/7.1.0/i686-pc-mingw32/bits/stdc++.h",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/io.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/01_recursion/myMerge.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/myHeader.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/mergeSort.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/allSubStr.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/subSeq.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/tower.cpp",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/algo.sublime-snippet",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/test.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/ptrIntro.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/ptr_arr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/nullPtr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/ptr_func_arr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/charArr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/charArr2.cpp",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_Cmtsia_EssT/Ex_Files_Cmtsia_EssT/Exercise Files/Chapter 08/02 Syncronize Text Project/PowerPoint Script.txt",
+				"/C/Users/deepak_aggarwal/Downloads/sourceCode (1).cpp",
+				"/C/Users/deepak_aggarwal/Desktop/archive-music.txt",
+				"/C/Users/deepak_aggarwal/Downloads/sourceCode.cpp",
+				"/C/Users/deepak_aggarwal/Downloads/text.cpp",
+				"/C/Users/deepak_aggarwal/Downloads/TechSmith Camtasia Studio 8.6.0 Build 2079 + Key [SadeemPC]/TechSmith Camtasia Studio 8.6.0 Build 2079 + Key [SadeemPC]/Crack/ReadMe.txt",
+				"/C/cloudStorage/Workshop_Deepak/README.md",
+				"/C/Users/deepak_aggarwal/Downloads/whiteboard asts2/whiteboard asts/Camtasia Whiteboard Tutorial Assets Licence.txt",
+				"/C/Users/deepak_aggarwal/Downloads/TechSmith Camtasia Studio 8.6.0 Build 2079 + Key [SadeemPC]/TechSmith Camtasia Studio 8.6.0 Build 2079 + Key [SadeemPC]/Install Notes.txt",
+				"/C/cloudStorage/cpp-toolkit/README.md",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/01_recursion/binarySearch.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/01_recursion/importantFns.h",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/01_recursion/exented.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/01_recursion/secondImp.h",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/README.md",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/01_recursion/fact.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/01_recursion/extend.E",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/01_recursion/linearSearch.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/01_recursion/printInc.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/binarySearch.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/fahTOcel.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/factorial.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/nCr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/arrayFunc.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/divideArr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/swp.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/mergeArr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/test.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/fahTOcel.o",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/extendedSC.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/extendedFile",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/extendedSC.o",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/07_functions/fahTOcel",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/06_timeComplexity/comparison.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/06_timeComplexity/isPrime.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/06_timeComplexity/insertionSort.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/06_timeComplexity/funcIntro.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/06_timeComplexity/allPrimeUsingFnc.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/03_languageConstructs/printAllPrime.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/06_timeComplexity/funcIntro2.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/02_pattern/isPrime.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/03_languageConstructs/sqrt.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/05_Arrays_harsh/arrayBasics.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/05_Arrays_harsh/bubble.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/05_Arrays_harsh/directions.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/05_Arrays_harsh/largest.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/05_Arrays_harsh/pattern.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/05_Arrays_harsh/reverse.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/05_Arrays_harsh/searching.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/05_Arrays_harsh/selection.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/05_Arrays_harsh/words.cpp",
+				"/C/cloudStorage/algo-sept-b1-17/Lecture-02 Backtracking Bitmasks/sudoku_solver.cpp",
+				"/C/Users/deepak_aggarwal/Downloads/asciicast-136726.json",
+				"/C/cloudStorage/competitive-programming/459-d.cpp",
+				"/C/cloudStorage/competitive-programming/10004_bicolor.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/shortlr/README.md",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/myCppBuild.sublime-build",
+				"/C/Users/deepak_aggarwal/Desktop/trash/test.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/trash/A_copy.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/trash/newScript.vbs",
+				"/C/Users/deepak_aggarwal/Downloads/gdb_stl_utils.txt",
+				"/C/Users/deepak_aggarwal/Downloads/StlStdContainers.cc",
+				"/C/Users/deepak_aggarwal/Downloads/Makefile.txt",
+				"/C/Users/deepak_aggarwal/Downloads/python/libstdcxx/v6/__init__.py",
+				"/C/Users/deepak_aggarwal/Downloads/python/libstdcxx/v6/printers.py",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/Terminal.sublime-settings",
+				"/C/Users/deepak_aggarwal/Downloads/script.sh",
+				"/C/cloudStorage/algo-sept-b1-17/Lecture-01 Recursion, STL/dynamic.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/trash/hello.js",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/Terminality/Default.sublime-keymap",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/Terminality.sublime-keymap",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/Terminality/README.md",
+				"/C/Users/deepak_aggarwal/Downloads/list.txt",
+				"/C/cloudStorage/Workshop_Deepak/17-09-05_HMR_DP/cuttingSticks.cpp",
+				"/C/cloudStorage/Workshop_Deepak/17-09-05_HMR_DP/maximumProfit.cpp"
+			],
+			"find":
+			{
+				"height": 104.0
+			},
+			"find_in_files":
+			{
+				"height": 236.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"4315",
+					"!",
+					"gcc",
+					"cutLen",
+					" ;",
+					"prim",
+					"string",
+					"false",
+					"NAME",
+					"expr",
+					"np",
+					"addMi",
+					"add",
+					"addMinus",
+					"\t\t//calculate the result corresponding to token\n",
+					"Token_value get_t",
+					"Token_value get_to",
+					"get_to",
+					"get",
+					"token",
+					"mai",
+					"main",
+					"visisted",
+					"cout",
+					"public",
+					"nV",
+					"element",
+					"push",
+					" ;",
+					"        {{",
+					"\n#",
+					"//Deepak Aggarwal, Coding Blocks\n\n#include <iostream>\nusing namespace std;\nint main(){\n\t// 12;\n\t\n\tchar *ptr = \"abc\";\n\tchar arr[] = \"abc\";\n\t// ptr[0] = 'k';\n\tarrr[0] = 'k';\n\tcout << ptr;\n\n\n\t// char s1[] = \"abc\";\n\n\n\t// char s2[] = s1;\t\n\n}",
+					"include",
+					"}\n",
+					"dim",
+					"N",
+					";\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"4314",
+					"curLen",
+					"visited",
+					"10",
+					"dim"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 80.0
+			},
+			"input":
+			{
+				"height": 84.0
+			},
+			"menu_visible": true,
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 438.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/myCppBuild.sublime-build",
+			"replace":
+			{
+				"height": 192.0
+			},
+			"save_all_on_build": false,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 159.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"main"
+					]
+				],
+				"width": 784.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 343.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			}
+		},
+		"new_window_width": 1910.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"re",
+						"Reindeer"
+					],
+					[
+						"pr",
+						"prod"
+					],
+					[
+						"bg",
+						"begin"
+					],
+					[
+						"nam",
+						"name_initial"
+					],
+					[
+						"prin",
+						"printContainer"
+					],
+					[
+						"iter",
+						"iter_type"
+					],
+					[
+						"print",
+						"printLL"
+					],
+					[
+						"mer",
+						"mergeSort"
+					],
+					[
+						"mid",
+						"midPointLL"
+					],
+					[
+						"me",
+						"mergedList"
+					],
+					[
+						"pri",
+						"printLL"
+					],
+					[
+						"ele",
+						"eleToDelete"
+					],
+					[
+						"end",
+						"endRow"
+					],
+					[
+						"st",
+						"startRow"
+					],
+					[
+						"star",
+						"startRow"
+					],
+					[
+						"rot",
+						"rotateByOne"
+					],
+					[
+						"las",
+						"lastSetBitPos"
+					],
+					[
+						"cnt",
+						"cntSet"
+					],
+					[
+						"s",
+						"startRow"
+					],
+					[
+						"start",
+						"startRow"
+					],
+					[
+						"cur",
+						"curPainterTime"
+					],
+					[
+						"req",
+						"reqTime"
+					],
+					[
+						"can",
+						"canFinish"
+					],
+					[
+						"fac",
+						"fact"
+					],
+					[
+						"fa",
+						"fact1"
+					],
+					[
+						"cu",
+						"curRow"
+					],
+					[
+						"circ",
+						"Circumference"
+					],
+					[
+						"lar",
+						"Largest"
+					],
+					[
+						"com",
+						"compUsingBS"
+					],
+					[
+						"m",
+						"mySqrt"
+					],
+					[
+						"mat",
+						"matColEn"
+					],
+					[
+						"so",
+						"solveSudoku"
+					],
+					[
+						"cp",
+						"completeNum"
+					],
+					[
+						"cor",
+						"correspondingChar"
+					],
+					[
+						"l",
+						"largestLen"
+					],
+					[
+						"In",
+						"include"
+					],
+					[
+						"en",
+						"en"
+					],
+					[
+						"is",
+						"isPalindrome"
+					],
+					[
+						"str",
+						"strLength"
+					],
+					[
+						"to",
+						"towerHanoi"
+					],
+					[
+						"out",
+						"outBe"
+					],
+					[
+						"p_a",
+						"p_ca"
+					],
+					[
+						"p_",
+						"p_ia"
+					],
+					[
+						"in",
+						"input"
+					],
+					[
+						"cop",
+						"copyArr"
+					],
+					[
+						"inc",
+						"incArr"
+					],
+					[
+						"r",
+						"rFact"
+					],
+					[
+						"be",
+						"beg1"
+					],
+					[
+						"cl",
+						"clock"
+					],
+					[
+						"rem",
+						"remAmt"
+					],
+					[
+						"den",
+						"deno"
+					],
+					[
+						"de",
+						"deno"
+					],
+					[
+						"comp",
+						"computeExp"
+					],
+					[
+						"beOp",
+						"beOper"
+					],
+					[
+						"beO",
+						"beOper"
+					],
+					[
+						"deno",
+						"denominations"
+					],
+					[
+						"denomin",
+						"denominations"
+					],
+					[
+						"cr",
+						"curr_tok"
+					],
+					[
+						"tre",
+						"true"
+					],
+					[
+						"nd",
+						"ndigits"
+					],
+					[
+						"nws",
+						"nws"
+					],
+					[
+						"rever",
+						"reversedNum"
+					],
+					[
+						"read",
+						"readNext"
+					],
+					[
+						"num",
+						"num_value"
+					],
+					[
+						"ar",
+						"argv"
+					],
+					[
+						"do",
+						"double"
+					],
+					[
+						"strin",
+						"string"
+					],
+					[
+						"MU",
+						"MINUS"
+					],
+					[
+						"get",
+						"get_token"
+					],
+					[
+						"string",
+						"string_value"
+					],
+					[
+						"no",
+						"no_of_errors"
+					],
+					[
+						"istrea",
+						"istringstream"
+					],
+					[
+						"ret",
+						"retSubString"
+					],
+					[
+						"su",
+						"subStringStart"
+					],
+					[
+						"sun",
+						"subStringStart"
+					],
+					[
+						"sub",
+						"subStringStart"
+					],
+					[
+						"fin",
+						"findSubLen"
+					],
+					[
+						"bin",
+						"binNum"
+					],
+					[
+						"int",
+						"initial"
+					],
+					[
+						"cha",
+						"charToInt"
+					],
+					[
+						"sr",
+						"srcC"
+					],
+					[
+						"src",
+						"srcR"
+					],
+					[
+						"ins",
+						"insertOp"
+					],
+					[
+						"pre",
+						"preIndex"
+					],
+					[
+						"se",
+						"seqToTree"
+					],
+					[
+						"ind",
+						"inorder"
+					],
+					[
+						"le",
+						"printLevel"
+					],
+					[
+						"ri",
+						"right"
+					],
+					[
+						"lf",
+						"lft"
+					],
+					[
+						"lft",
+						"lftAns"
+					],
+					[
+						"lef",
+						"leftCnt"
+					],
+					[
+						"Node",
+						"maxSumNode"
+					],
+					[
+						"chil",
+						"childNode"
+					],
+					[
+						"chi",
+						"childSum"
+					],
+					[
+						"child",
+						"childNode"
+					],
+					[
+						"max",
+						"maxSumNode"
+					],
+					[
+						"ch",
+						"childAns"
+					],
+					[
+						"Q",
+						"Queue"
+					],
+					[
+						"rea",
+						"rear"
+					],
+					[
+						"rand",
+						"randNode"
+					],
+					[
+						"ra",
+						"randNode"
+					],
+					[
+						"ran",
+						"randNo"
+					],
+					[
+						"N",
+						"NULL"
+					],
+					[
+						"rev",
+						"reverseList"
+					],
+					[
+						"n",
+						"numOfCC"
+					],
+					[
+						"find",
+						"findNum"
+					],
+					[
+						"clone",
+						"clonelinked"
+					],
+					[
+						"clon",
+						"cloning"
+					],
+					[
+						"new",
+						"newNode"
+					],
+					[
+						"nu",
+						"NULL"
+					],
+					[
+						"len",
+						"lengthLL"
+					],
+					[
+						"delete",
+						"deleteNode"
+					],
+					[
+						"ma",
+						"maxProfit"
+					],
+					[
+						"dis",
+						"dijikstra"
+					],
+					[
+						"di",
+						"distFromSrc"
+					],
+					[
+						"v",
+						"Vertex"
+					],
+					[
+						"Pl",
+						"Polynomial"
+					],
+					[
+						"pus",
+						"push_back"
+					],
+					[
+						"vist",
+						"visited"
+					],
+					[
+						"ne",
+						"neighbor"
+					],
+					[
+						"dfs",
+						"dfs_helper"
+					],
+					[
+						"ad",
+						"adjList"
+					],
+					[
+						"x",
+						"xpow"
+					],
+					[
+						"S",
+						"Student"
+					],
+					[
+						"del",
+						"deleteStud"
+					],
+					[
+						"ptr",
+						"ptr_arr"
+					],
+					[
+						"p",
+						"phone"
+					],
+					[
+						"acc",
+						"account"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/WakaTime.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 19,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/myCppBuild.sublime-build",
+							""
+						],
+						[
+							"Packages/User/myCppBuild.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/myCppBuild.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 784.0,
+				"last_filter": "termina",
+				"selected_items":
+				[
+					[
+						"termina",
+						"Preferences: Terminal Settings – Default"
+					],
+					[
+						"copy wi",
+						"Preferences: Copy With Line Numbers Settings - User"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"waka",
+						"WakaTime: Open Dashboard"
+					],
+					[
+						"wak",
+						"WakaTime: Open Dashboard"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"ter",
+						"Extract Sublime Package: Extract all packages"
+					],
+					[
+						"term",
+						"Preferences: Terminal Settings – Default"
+					],
+					[
+						"ww",
+						"Word Wrap: Toggle"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"extra",
+						"Extract Sublime Package: Extract all packages"
+					]
+				],
+				"width": 904.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/cloudStorage/cpp-toolkit/README.md",
+				"/C/cloudStorage/competitive-programming-autumn/helper.h",
+				"/C/cloudStorage/competitive-programming-autumn/README.MD",
+				"/C/cloudStorage/competitive-programming-autumn/01_Maths_and_STL/printContainer.cpp",
+				"/C/cloudStorage/competitive-programming-autumn/01_Maths_and_STL/test.cpp",
+				"/C/cloudStorage/competitive-programming-autumn/01_Maths_and_STL/remove_if.cpp",
+				"/C/cloudStorage/competitive-programming-autumn/01_Maths_and_STL/reverse_copy.cpp",
+				"/C/cloudStorage/competitive-programming-autumn/01_Maths_and_STL/lower_bound.cpp",
+				"/C/cloudStorage/competitive-programming-autumn/01_Maths_and_STL/merge.cpp",
+				"/C/cloudStorage/competitive-programming-autumn/01_Maths_and_STL/set_union.cpp",
+				"/C/cloudStorage/competitive-programming-autumn/01_Maths_and_STL/spoj_SANTA1.cpp",
+				"/C/cloudStorage/competitive-programming-autumn/.gitignore",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/competitive.sublime-snippet",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/articulation_point/articulation_point_camtasia.txt",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/prims_algorithm/intro",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/spanning_tree/spanning_tree_end.txt",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/Terminal.sublime-settings",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/strongly_connected_component/intro",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/spanning_tree/spanning_tree_intro",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/Terminal/Terminal.sublime-settings",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/articulation_point/articulation_point_end.txt",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/articulation_point/articulation_point_intro.txt",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/strongly_connected_component/code",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/articulation_point_intro.txt",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/articulation_point_camtasia.txt",
+				"/C/Users/deepak_aggarwal/Desktop/coding_blocks_scripts/graphs/articulation_point_end.txt",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/05_linkedlist/LinkedList.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/17_igdtuw/1_staircase.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/10_charArrQues/in",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/05_linkedlist/ptr.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/05_linkedlist/2DPtr.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/05_linkedlist/2DArr_ptr.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/05_linkedlist/in",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/10_charArrQues/rotateArr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/10_charArrQues/isPermutation.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/10_charArrQues/allSubstrings.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/10_charArrQues/waveSort.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/10_charArrQues/spiralPrint.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/10_charArrQues/2Darr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/10_charArrQues/redirection.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/10_charArrQues/out",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/04_binarySearch_bitmasking/wineBottles.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/04_binarySearch_bitmasking/test.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/04_binarySearch_bitmasking/spiralPrint.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/04_binarySearch_bitmasking/cntSet.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/04_binarySearch_bitmasking/uniqueEle.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/04_binarySearch_bitmasking/twoUnique.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/04_binarySearch_bitmasking/thriceUnique.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/04_binarySearch_bitmasking/in",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/04_binarySearch_bitmasking/painterProb.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/thriceButOne.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/strtokDemo.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/myStrToK.cpp",
+				"/C/Users/deepak_aggarwal/OneDrive - Coding Blocks Pvt Ltd/lp-modules/Launchpad-Module/README.md",
+				"/C/Users/deepak_aggarwal/OneDrive - Coding Blocks Pvt Ltd/lp-modules/Launchpad-Module/Chapter 04 Functions/factorialWithoutFns.cpp",
+				"/C/Users/deepak_aggarwal/OneDrive - Coding Blocks Pvt Ltd/lp-modules/Launchpad-Module/Chapter 04 Functions/factorialUsingFunc.cpp",
+				"/C/Users/deepak_aggarwal/OneDrive - Coding Blocks Pvt Ltd/lp-modules/Launchpad-Module/Chapter 04 Functions/sum.cpp",
+				"/C/Users/deepak_aggarwal/OneDrive - Coding Blocks Pvt Ltd/lp-modules/Launchpad-Module/Chapter 04 Functions/callbyRefer.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/reverseStr.cpp",
+				"/D/softwares/Adobe Acrobat XI Pro 11.0.17/Adobe Acrobat XI Pro 11.0.17/Readme.txt",
+				"/D/softwares/Adobe Acrobat XI Pro 11.0.17/Adobe Acrobat XI Pro 11.0.17/3. Patch MPT/Readme.txt",
+				"/C/Users/deepak_aggarwal/OneDrive - Coding Blocks Pvt Ltd/lp-modules/Launchpad-Module/Chapter 04 Functions/callByVal.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/README.md",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/Excercise/circumference.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/Excercise/isPrime.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/Excercise/printPattern.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/Excercise/studentGrading.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/usr_input.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/addNnumbers.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/addNnumbers_for.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/hello_world.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/data_types.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/largestOf3.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/largestOf3_nested.cpp",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/Chapter 02 Getting Started/decision.cpp",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/CopyWithLineNumbersReloaded/CopyWithLineNumbersReloaded.sublime-settings",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/CopyWithLineNumbersReloaded.sublime-settings",
+				"/C/Users/deepak_aggarwal/Desktop/Launchpad-Module/.gitconfig",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/explore_california/index.html",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/gitpr/logs",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/gitpr/logs1",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/gitpr/logs2",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/gitpr/log3",
+				"/C/Users/deepak_aggarwal/.gitconfig_global",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/newproj/1file",
+				"/C/Users/deepak_aggarwal/AppData/Local/Temp/OneNote/16.0/Exported/{916152A0-4943-413C-9519-3AF1B9A3C5CB}/NT/0/archive-music.txt",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/explore_california/contact.html",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_GIT_EssT/Chapter 06/06_01/explore_california/mission.html",
+				"/C/Users/deepak_aggarwal/Desktop/text.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/squareRootWithPrec.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/test.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/sudokuSolver.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/nQuees.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/painterProb.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/myHeader.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/phoneKeypad.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/letterPhone.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/03_STL/squareRoot.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/palindrome.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/concatenate.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/largestStr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/ptrVsArr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/arr2D.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/findIn2D.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/length.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/intro.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/getlineDemo.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/getlineBufferProtection.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/09_charArr/getlineInt.cpp",
+				"/C/Users/deepak_aggarwal/Downloads/readme.txt",
+				"/C/cloudStorage/cpp-toolkit/MinGW/include/c++/7.1.0/i686-pc-mingw32/bits/stdc++.h",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/io.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/01_recursion/myMerge.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/myHeader.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/mergeSort.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/allSubStr.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/subSeq.cpp",
+				"/C/cloudStorage/Algo17_Autumn_Pitampura/02_recursionContd/tower.cpp",
+				"/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/algo.sublime-snippet",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/test.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/ptrIntro.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/ptr_arr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/nullPtr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/ptr_func_arr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/charArr.cpp",
+				"/C/cloudStorage/Launchpad_17_Autumn_Pitampura/08_pointers/charArr2.cpp",
+				"/C/Users/deepak_aggarwal/Downloads/Ex_Files_Cmtsia_EssT/Ex_Files_Cmtsia_EssT/Exercise Files/Chapter 08/02 Syncronize Text Project/PowerPoint Script.txt",
+				"/C/Users/deepak_aggarwal/Downloads/sourceCode (1).cpp"
+			],
+			"find":
+			{
+				"height": 75.0
+			},
+			"find_in_files":
+			{
+				"height": 968.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"())   ",
+					" >(",
+					">>(",
+					"begin",
+					"    \n",
+					"\");\n",
+					"variables",
+					"function",
+					";\n",
+					"i ",
+					"[0-9]   ",
+					"4315",
+					"!",
+					"gcc",
+					"cutLen",
+					" ;",
+					"prim",
+					"string",
+					"false",
+					"NAME",
+					"expr",
+					"np",
+					"addMi",
+					"add",
+					"addMinus",
+					"\t\t//calculate the result corresponding to token\n",
+					"Token_value get_t",
+					"Token_value get_to",
+					"get_to",
+					"get",
+					"token",
+					"mai",
+					"main",
+					"visisted",
+					"cout",
+					"public",
+					"nV",
+					"element",
+					"push",
+					" ;",
+					"        {{",
+					"\n#",
+					"//Deepak Aggarwal, Coding Blocks\n\n#include <iostream>\nusing namespace std;\nint main(){\n\t// 12;\n\t\n\tchar *ptr = \"abc\";\n\tchar arr[] = \"abc\";\n\t// ptr[0] = 'k';\n\tarrr[0] = 'k';\n\tcout << ptr;\n\n\n\t// char s1[] = \"abc\";\n\n\n\t// char s2[] = s1;\t\n\n}",
+					"include",
+					"}\n",
+					"dim",
+					"N",
+					";\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"div",
+					"",
+					"4314",
+					"curLen",
+					"visited",
+					"10",
+					"dim"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/cloudStorage/cpp-toolkit/Sublime_1326/Data/Packages/User/WakaTime.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 19,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										15,
+										15
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 75.0
+			},
+			"input":
+			{
+				"height": 328.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 448.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/myCppBuild.sublime-build",
+			"position": "0,2,3,-1,-1,-1,-1,1629,0,177,1936",
+			"project": "",
+			"replace":
+			{
+				"height": 142.0
+			},
+			"save_all_on_build": false,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 159.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"main"
+					]
+				],
+				"width": 784.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 326.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			},
+			"window_id": 13,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

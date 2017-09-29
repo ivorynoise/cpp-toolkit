@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-032-ad60-02b1c5">
+    <release tarname="gdb-7.6.1-1-mingw32-man.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="share" />
+        <dir path="share/man" />
+        <dir path="share/man/man1" />
+        <file path="share/man/man1/gdb.1" />
+        <file path="share/man/man1/gdbserver.1" />
+    </manifest>
+</package>
