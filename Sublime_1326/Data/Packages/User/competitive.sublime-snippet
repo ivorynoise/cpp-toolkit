@@ -4,6 +4,7 @@
 //deepak@codingblocks.com
 
 #include <bits/stdc++.h>
+#include "../helper.h"
 using namespace std;
 
 const int inf = (int)1e6;

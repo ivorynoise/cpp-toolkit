@@ -73,7 +73,7 @@ _CRTIMP int __cdecl __MINGW_NOTHROW	_wutime (const wchar_t*, struct _utimbuf*);
 #endif
 #endif /* MSVCRT runtime */
 
-/* These require newer versions of msvcrt.dll (6.10 or higher).  */ 
+/* These require newer versions of msvcrt.dll (6.10 or higher).  */
 #if __MSVCRT_VERSION__ >= 0x0601
 struct __utimbuf64
 {

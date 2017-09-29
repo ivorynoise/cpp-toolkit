@@ -70,11 +70,11 @@ _CRTIMP int __cdecl __MINGW_NOTHROW _heapmin (void);	/* Return unused heap to th
 _CRTIMP int __cdecl __MINGW_NOTHROW _heapset (unsigned int);
 
 _CRTIMP size_t __cdecl __MINGW_NOTHROW _msize (void*);
-_CRTIMP size_t __cdecl __MINGW_NOTHROW _get_sbh_threshold (void); 
+_CRTIMP size_t __cdecl __MINGW_NOTHROW _get_sbh_threshold (void);
 _CRTIMP int __cdecl __MINGW_NOTHROW _set_sbh_threshold (size_t);
-_CRTIMP void* __cdecl __MINGW_NOTHROW _expand (void*, size_t); 
+_CRTIMP void* __cdecl __MINGW_NOTHROW _expand (void*, size_t);
 
-/* These require msvcr70.dll or higher. */ 
+/* These require msvcr70.dll or higher. */
 #if __MSVCRT_VERSION__ >= 0x0700
 _CRTIMP void * __cdecl __MINGW_NOTHROW _aligned_offset_malloc(size_t, size_t, size_t);
 _CRTIMP void * __cdecl __MINGW_NOTHROW _aligned_offset_realloc(void*, size_t, size_t, size_t);
@@ -86,7 +86,7 @@ _CRTIMP void* __cdecl __MINGW_NOTHROW _aligned_recalloc(void*, size_t, size_t, s
 _CRTIMP void __cdecl __MINGW_NOTHROW _aligned_free (void*);
 #endif /* __MSVCRT_VERSION__ >= 0x0700 */
 
-/* These require libmingwex.a. */ 
+/* These require libmingwex.a. */
 void * __cdecl __MINGW_NOTHROW __mingw_aligned_offset_malloc (size_t, size_t, size_t);
 void * __cdecl __MINGW_NOTHROW __mingw_aligned_offset_realloc (void*, size_t, size_t, size_t);
 

@@ -1,4 +1,8 @@
 /* Script for ld -r: link without relocation */
+/* Copyright (C) 2014-2017 Free Software Foundation, Inc.
+   Copying and distribution of this script, with or without modification,
+   are permitted in any medium without royalty provided the copyright
+   notice and this notice are preserved.  */
 OUTPUT_FORMAT(pe-i386)
 SEARCH_DIR("/mingw/mingw32/lib"); SEARCH_DIR("/mingw/lib"); SEARCH_DIR("/usr/local/lib"); SEARCH_DIR("/lib"); SEARCH_DIR("/usr/lib");
 SECTIONS
@@ -19,20 +23,20 @@ SECTIONS
   {
     *(.data)
     *(.data2)
-    *(.jcr)
+    KEEP(*(.jcr))
   }
   .rdata  :
   {
     *(.rdata)
-    *(.rdata_runtime_pseudo_reloc)
+    KEEP(*(.rdata_runtime_pseudo_reloc))
   }
   .eh_frame  :
   {
-    *(.eh_frame*)
+    KEEP(*(.eh_frame*))
   }
   .pdata  :
   {
-    *(.pdata)
+    KEEP(*(.pdata*))
   }
   .bss  :
   {
@@ -70,7 +74,7 @@ SECTIONS
   {
     /* end is deprecated, don't use it */
   }
-  .rsrc  :
+  .rsrc  : SUBALIGN(4)
   {
     *(.rsrc)
   }

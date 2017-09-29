@@ -3,7 +3,7 @@
 This repository contains few tools to quickly get started with C++ using standard libraries in Windows.
 
 ## Getting Started
-1. Extract/Clone this folder to any location (preferably Desktop)
+1. Extract/Clone [this](https://github.com/aggarwaldeepak/cpp-toolkit) folder to any location (preferably Desktop)
 
 ![Get the URL](images/download.jpg)
 
@@ -57,7 +57,7 @@ The following file has been used as a build system for C++ programs.
 3. Autoformat code 	: `Ctrl + Alt + F`
 
 ### Other Notes
-The setup for windows has been downloaded from [http://www.equation.com/servlet/equation.cmd?fa=fortran](http://www.equation.com/servlet/equation.cmd?fa=fortran)
+The setup for windows has been downloaded from [MINGW.ORG](https://sourceforge.net/projects/mingw/files/)
 
 ## Author
 Deepak Aggarwal

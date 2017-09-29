@@ -8,9 +8,7 @@
 #define __need_wchar_t
 #include <stddef.h>
 
-#ifdef	__cplusplus
-extern	"C"	{
-#endif
+_BEGIN_C_DECLS
 
 typedef struct {
 	intmax_t quot;
@@ -20,7 +18,7 @@ typedef struct {
 #if !defined(__cplusplus) || defined(__STDC_FORMAT_MACROS)
 
 /* 7.8.1 Macros for format specifiers
- * 
+ *
  * MS runtime does not yet understand C9x standard "ll"
  * length specifier. It appears to treat "ll" as "l".
  * The non-standard I64 length specifier causes warning in GCC,
@@ -224,10 +222,12 @@ typedef struct {
 #define SCNuMAX "I64u"
 #define SCNuPTR "u"
 
-#if defined (__STDC_VERSION__) && __STDC_VERSION__ >= 199901L
-/*
- * no length modifier for char types prior to C9x
- * MS runtime  scanf appears to treat "hh" as "h" 
+#if _ISOC99_SOURCE
+/* Defined by the user, or implicitly in <_mingw.h>, indicating that
+ * we are compiling for C99, C++11, or POSIX.1-2001 (or later); no char
+ * type length modifiers are supported prior to C99.  Further note that
+ * Microsoft's scanf() appears to treat the ISO-C99/POSIX.1 "hh" length
+ * modifier as if it were just "h".
  */
 
 /* signed char */
@@ -251,15 +251,25 @@ typedef struct {
 #define SCNu8 "hhu"
 #define SCNuLEAST8 "hhu"
 #define SCNuFAST8 "hhu"
-#endif /* __STDC_VERSION__ >= 199901 */
+#endif	/* _ISOC99_SOURCE */
 
 #endif	/* !defined(__cplusplus) || defined(__STDC_FORMAT_MACROS) */
 
 intmax_t __cdecl __MINGW_NOTHROW imaxabs (intmax_t j);
 #ifndef __NO_INLINE__
-__CRT_INLINE intmax_t __cdecl __MINGW_NOTHROW imaxabs (intmax_t j)
-	{return	(j >= 0 ? j : -j);}
+__CRT_INLINE __LIBIMPL__(( FUNCTION = imaxabs ))
+intmax_t __cdecl __MINGW_NOTHROW imaxabs (intmax_t __j)
+{ return __j >= 0 ? __j : -__j; }
+
+/* Since intmax_t is effectively analogous to long long, the preceding
+ * implementation will serve admirably as the external representation of
+ * both imaxabs() and llabs(); declare so here, by providing a prototype
+ * only, with the corresponding inline implementation in stdlib.h
+ */
+__CRT_INLINE __LIBIMPL__(( ALIAS = imaxabs ))
+long long llabs (long long);
 #endif
+
 imaxdiv_t __cdecl __MINGW_NOTHROW imaxdiv (intmax_t numer, intmax_t denom);
 
 /* 7.8.2 Conversion functions for greatest-width integer types */
@@ -274,8 +284,6 @@ intmax_t __cdecl __MINGW_NOTHROW wcstoimax (const wchar_t* __restrict__ nptr,
 uintmax_t __cdecl __MINGW_NOTHROW wcstoumax (const wchar_t* __restrict__ nptr,
 			     wchar_t** __restrict__ endptr, int base);
 
-#ifdef	__cplusplus
-}
-#endif
+_END_C_DECLS
 
 #endif /* ndef _INTTYPES_H */

@@ -1,4 +1,4 @@
-/* 
+/*
  * tchar.h
  * This file has no copyright assigned and is placed in the Public Domain.
  * This file is a part of the mingw-runtime package.
@@ -145,7 +145,7 @@ typedef wchar_t _TCHAR;
 #define _totupper	towupper
 #define	_totlower	towlower
 #define _tcsftime	wcsftime
-/* Macro functions */ 
+/* Macro functions */
 #define _tcsdec     _wcsdec
 #define _tcsinc     _wcsinc
 #define _tcsnbcnt   _wcsncnt
@@ -387,7 +387,7 @@ typedef char	_TCHAR;
 #define	_tutime32	_utime32
 #endif /* __MSVCRT_VERSION__ > 0x0800 */
 #define _tcsftime	strftime
-/* Macro functions */ 
+/* Macro functions */
 #define _tcsdec     _strdec
 #define _tcsinc     _strinc
 #define _tcsnbcnt   _strncnt

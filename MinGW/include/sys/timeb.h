@@ -66,7 +66,7 @@ _CRTIMP void __cdecl __MINGW_NOTHROW	_ftime (struct _timeb*);
 _CRTIMP void __cdecl __MINGW_NOTHROW	ftime (struct timeb*);
 #endif	/* Not _NO_OLDNAMES */
 
-/* This requires newer versions of msvcrt.dll (6.10 or higher).  */ 
+/* This requires newer versions of msvcrt.dll (6.10 or higher).  */
 #if __MSVCRT_VERSION__ >= 0x0601
 struct __timeb64
 {

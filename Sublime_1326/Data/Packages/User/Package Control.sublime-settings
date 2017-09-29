@@ -5,10 +5,12 @@
 	],
 	"installed_packages":
 	[
+		"CopyWithLineNumbersReloaded",
 		"Extract Sublime Package",
 		"Package Control",
 		"PackageResourceViewer",
 		"SublimeAStyleFormatter",
-		"Terminal"
+		"Terminal",
+		"WakaTime"
 	]
 }
